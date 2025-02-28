@@ -3,3 +3,33 @@ title: "basictimeseries"
 format: html
 ---
 
+```{r}
+install.packages(c("quantmod", "forecast", "tseries"))
+
+library(quantmod)
+library(forecast)
+library(tseries)
+```
+
+```{r}
+# Getting Apple stock information (AAPL) for the last 5 years.
+
+getSymbols("AAPL", src = "yahoo", from = "2019-01-01", to = Sys.Date())
+
+# View the first few rows
+head(AAPL)
+```
+
+```{r}
+# Converting data into a basic time series object and creating a visualization of the closing prices
+
+# End of Day (EoD) prices
+AAPL_Close <- Cl(AAPL)
+
+# Basic time series - 252 active trading days in a year
+AAPL_ts <- ts(AAPL_Close, frequency = 252)
+
+# Creating a visual plot
+plot(AAPL_ts, main="AAPL Adjusted Closing Prices", ylab="Price", col="blue")
+```
+
