@@ -1,7 +1,5 @@
-Hello! This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Hello! This is a Quarto website..
 
 ```{r}
-print("Hello World")
+print("Welcome this is Gerver's personal website in construction. Please visit later.")
 ```

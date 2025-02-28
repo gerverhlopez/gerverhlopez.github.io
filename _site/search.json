@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "gerverhlopez.github.io",
     "section": "",
-    "text": "Hello! This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nprint(\"Hello World\")\n\n[1] \"Hello World\""
+    "text": "Hello! This is a Quarto website..\n\nprint(\"Welcome this is Gerver's personal website in construction. Please visit later.\")\n\n[1] \"Welcome this is Gerver's personal website in construction. Please visit later.\""
   },
   {
     "objectID": "about.html",
