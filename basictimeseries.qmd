@@ -32,4 +32,3 @@ AAPL_ts <- ts(AAPL_Close, frequency = 252)
 # Creating a visual plot
 plot(AAPL_ts, main="AAPL Adjusted Closing Prices", ylab="Price", col="blue")
 ```
-
