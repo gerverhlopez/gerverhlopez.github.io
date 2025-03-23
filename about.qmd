@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Gerver"
 ---
 
 About this site

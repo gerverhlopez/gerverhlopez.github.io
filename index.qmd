@@ -1,4 +1,4 @@
-Hello! This is a Quarto website..
+Hello! This is Gerver's blog
 
 ```{r}
 print("Welcome this is Gerver's personal website in construction. Please visit later.")
