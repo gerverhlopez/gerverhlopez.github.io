@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "gerverhlopez.github.io"
@@ -8,6 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - text: Technical
+        href: sri.qmd
 
 format:
   html:

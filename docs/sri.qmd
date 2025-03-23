@@ -1,0 +1,142 @@
+---
+title: "SRI"
+format: html
+---
+
+```{r}
+
+# Load required libraries
+library(quantmod)
+library(TTR)
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(readr)
+```
+
+```{r}
+# Define a list of popular stock tickers (S&P 500 example)
+stock_symbols <- c("AAPL", "MSFT", "TSLA", "NVDA", "AMZN", "GOOGL", "META", "NFLX", "AMD", "BABA")
+
+# Function to get RSI for a stock
+get_stock_rsi <- function(symbol, n = 14) {
+  tryCatch({
+    stock_data <- getSymbols(symbol, src = "yahoo", from = Sys.Date() - 90, auto.assign = FALSE)
+    rsi_values <- RSI(Cl(stock_data), n = n)
+    last_rsi <- tail(rsi_values, 1) %>% as.numeric()
+    return(last_rsi)
+  }, error = function(e) NA)
+}
+
+# Get RSI for all stocks
+rsi_data <- data.frame(
+  Symbol = stock_symbols,
+  RSI = sapply(stock_symbols, get_stock_rsi)
+)
+
+# Remove stocks with missing data
+rsi_data <- na.omit(rsi_data)
+
+# Sort by RSI (descending)
+rsi_data <- rsi_data %>% arrange(desc(RSI))
+
+# Display Top RSI Stocks
+rsi_data
+```
+
+```{r}
+# Select top 5 stocks with highest RSI
+top_rsi_stocks <- head(rsi_data, 5)
+
+# Plot RSI values for top stocks
+ggplot(top_rsi_stocks, aes(x = reorder(Symbol, RSI), y = RSI, fill = Symbol)) +
+  geom_bar(stat = "identity", color = "black") +
+  coord_flip() +
+  labs(title = "Top 5 Stocks with Highest RSI", x = "Stock Symbol", y = "RSI Value") +
+  theme_minimal()
+```
+
+```{r}
+# Load tickers
+nyse_symbols <- read_csv("nyse_tickers.csv", show_col_types = FALSE)$Ticker
+nasdaq_symbols <- read_csv("nasdaq_tickers.csv", show_col_types = FALSE)$Ticker
+sp500_symbols <- read_csv("s&p500_tickers.csv", show_col_types = FALSE)$Ticker
+
+# Combine all tickers
+stock_symbols <- unique(c(nyse_symbols, nasdaq_symbols, sp500_symbols))
+
+# Debug: Check how many tickers were loaded
+print(paste("Total tickers loaded:", length(stock_symbols)))
+
+# Limit to first 500 tickers (only if we have enough stocks)
+stock_symbols <- stock_symbols[1:min(500, length(stock_symbols))]
+
+# Function to calculate weekly percentage change
+get_weekly_change <- function(symbol) {
+  tryCatch({
+    stock_data <- getSymbols(symbol, src = "yahoo", from = Sys.Date() - 90, auto.assign = FALSE)
+    
+    # Debugging: Check if data was fetched
+    print(paste("Fetching:", symbol))
+    print(head(Cl(stock_data)))
+
+    weekly_prices <- to.weekly(Cl(stock_data))[,4]  
+    weekly_returns <- round(100 * Delt(weekly_prices), 2)
+    last_return <- tail(na.omit(weekly_returns), 1) %>% as.numeric()
+
+    return(last_return)
+  }, error = function(e) {
+    print(paste("Error fetching data for:", symbol))
+    return(NA)
+  })
+}
+
+# Get weekly % change for all stocks
+weekly_changes <- data.frame(
+  Symbol = stock_symbols,
+  Weekly_Change = sapply(stock_symbols, get_weekly_change)
+)
+
+# Debug: Check data before sorting
+print(head(weekly_changes))
+
+# Remove only rows with NA in Weekly_Change
+weekly_changes <- weekly_changes %>% filter(!is.na(Weekly_Change))
+
+# Convert Weekly_Change to numeric
+weekly_changes$Weekly_Change <- as.numeric(weekly_changes$Weekly_Change)
+
+# Sort stocks by highest weekly gainers
+weekly_winners <- weekly_changes %>% arrange(desc(Weekly_Change))
+
+# Display Top 20 Winners of the Week
+top_gainers <- head(weekly_winners, 20)
+print("Top 20 Weekly Gainers Across NYSE, NASDAQ, AMEX, and S&P 500:")
+print(top_gainers)
+```
+
+```{r}
+
+```
+
+```{r}
+#| eval: false
+#| include: false
+# Convert RSI to data frame
+rsi_df <- data.frame(Date = index(top_stock_rsi), RSI = coredata(top_stock_rsi))
+
+# Remove missing values
+rsi_df <- na.omit(rsi_df)
+
+# Check structure before plotting
+str(rsi_df)
+head(rsi_df)
+
+# Plot RSI trend over time
+ggplot(rsi_df, aes(x = Date, y = RSI)) +
+  geom_line(color = "blue", size = 1) +
+  geom_hline(yintercept = 70, linetype = "dashed", color = "red") +  # Overbought
+  geom_hline(yintercept = 30, linetype = "dashed", color = "green") +  # Oversold
+  labs(title = paste("RSI Trend for", top_stock), x = "Date", y = "RSI") +
+  theme_minimal()
+```

@@ -1,0 +1,4876 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>SRI – gerverhlopez.github.io</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">gerverhlopez.github.io</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About Gerver</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./sri.qmd"> 
+<span class="menu-text">Technical</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">SRI</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load required libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quantmod)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'quantmod' was built under R version 4.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: xts</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: zoo</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'zoo'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: TTR</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'TTR' was built under R version 4.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(TTR)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'dplyr' was built under R version 4.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+######################### Warning from 'xts' package ##########################
+#                                                                             #
+# The dplyr lag() function breaks how base R's lag() function is supposed to  #
+# work, which breaks lag(my_xts). Calls to lag(my_xts) that you type or       #
+# source() into this session won't work correctly.                            #
+#                                                                             #
+# Use stats::lag() to make sure you're not using dplyr::lag(), or you can add #
+# conflictRules('dplyr', exclude = 'lag') to your .Rprofile to stop           #
+# dplyr from breaking base R's lag() function.                                #
+#                                                                             #
+# Code in packages is not affected. It's protected by R's namespace mechanism #
+# Set `options(xts.warn_dplyr_breaks_lag = FALSE)` to suppress this warning.  #
+#                                                                             #
+###############################################################################</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:xts':
+
+    first, last</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'readr' was built under R version 4.4.3</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.5
+✔ ggplot2   3.5.1     ✔ stringr   1.5.1
+✔ lubridate 1.9.4     ✔ tibble    3.2.1
+✔ purrr     1.0.4     ✔ tidyr     1.3.1</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::first()  masks xts::first()
+✖ dplyr::lag()    masks stats::lag()
+✖ dplyr::last()   masks xts::last()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Define a list of popular stock tickers (S&amp;P 500 example)</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>stock_symbols <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"AAPL"</span>, <span class="st">"MSFT"</span>, <span class="st">"TSLA"</span>, <span class="st">"NVDA"</span>, <span class="st">"AMZN"</span>, <span class="st">"GOOGL"</span>, <span class="st">"META"</span>, <span class="st">"NFLX"</span>, <span class="st">"AMD"</span>, <span class="st">"BABA"</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to get RSI for a stock</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>get_stock_rsi <span class="ot">&lt;-</span> <span class="cf">function</span>(symbol, <span class="at">n =</span> <span class="dv">14</span>) {</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tryCatch</span>({</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>    stock_data <span class="ot">&lt;-</span> <span class="fu">getSymbols</span>(symbol, <span class="at">src =</span> <span class="st">"yahoo"</span>, <span class="at">from =</span> <span class="fu">Sys.Date</span>() <span class="sc">-</span> <span class="dv">90</span>, <span class="at">auto.assign =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>    rsi_values <span class="ot">&lt;-</span> <span class="fu">RSI</span>(<span class="fu">Cl</span>(stock_data), <span class="at">n =</span> n)</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>    last_rsi <span class="ot">&lt;-</span> <span class="fu">tail</span>(rsi_values, <span class="dv">1</span>) <span class="sc">%&gt;%</span> <span class="fu">as.numeric</span>()</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(last_rsi)</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>  }, <span class="at">error =</span> <span class="cf">function</span>(e) <span class="cn">NA</span>)</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Get RSI for all stocks</span></span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>rsi_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a>  <span class="at">Symbol =</span> stock_symbols,</span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>  <span class="at">RSI =</span> <span class="fu">sapply</span>(stock_symbols, get_stock_rsi)</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove stocks with missing data</span></span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>rsi_data <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(rsi_data)</span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by RSI (descending)</span></span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a>rsi_data <span class="ot">&lt;-</span> rsi_data <span class="sc">%&gt;%</span> <span class="fu">arrange</span>(<span class="fu">desc</span>(RSI))</span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Display Top RSI Stocks</span></span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>rsi_data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      Symbol      RSI
+BABA    BABA 53.47235
+AMD      AMD 51.97187
+NFLX    NFLX 51.78823
+NVDA    NVDA 46.35024
+MSFT    MSFT 46.17642
+AAPL    AAPL 39.52423
+META    META 39.35164
+TSLA    TSLA 39.05275
+GOOGL  GOOGL 38.59176
+AMZN    AMZN 37.28597</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Select top 5 stocks with highest RSI</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>top_rsi_stocks <span class="ot">&lt;-</span> <span class="fu">head</span>(rsi_data, <span class="dv">5</span>)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot RSI values for top stocks</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(top_rsi_stocks, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(Symbol, RSI), <span class="at">y =</span> RSI, <span class="at">fill =</span> Symbol)) <span class="sc">+</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Top 5 Stocks with Highest RSI"</span>, <span class="at">x =</span> <span class="st">"Stock Symbol"</span>, <span class="at">y =</span> <span class="st">"RSI Value"</span>) <span class="sc">+</span></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="SRI_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load tickers</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>nyse_symbols <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"nyse_tickers.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>Ticker</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>nasdaq_symbols <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"nasdaq_tickers.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>Ticker</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>sp500_symbols <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"s&amp;p500_tickers.csv"</span>, <span class="at">show_col_types =</span> <span class="cn">FALSE</span>)<span class="sc">$</span>Ticker</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine all tickers</span></span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>stock_symbols <span class="ot">&lt;-</span> <span class="fu">unique</span>(<span class="fu">c</span>(nyse_symbols, nasdaq_symbols, sp500_symbols))</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Debug: Check how many tickers were loaded</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Total tickers loaded:"</span>, <span class="fu">length</span>(stock_symbols)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Total tickers loaded: 7469"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Limit to first 500 tickers (only if we have enough stocks)</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>stock_symbols <span class="ot">&lt;-</span> stock_symbols[<span class="dv">1</span><span class="sc">:</span><span class="fu">min</span>(<span class="dv">500</span>, <span class="fu">length</span>(stock_symbols))]</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to calculate weekly percentage change</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>get_weekly_change <span class="ot">&lt;-</span> <span class="cf">function</span>(symbol) {</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tryCatch</span>({</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    stock_data <span class="ot">&lt;-</span> <span class="fu">getSymbols</span>(symbol, <span class="at">src =</span> <span class="st">"yahoo"</span>, <span class="at">from =</span> <span class="fu">Sys.Date</span>() <span class="sc">-</span> <span class="dv">90</span>, <span class="at">auto.assign =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Debugging: Check if data was fetched</span></span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Fetching:"</span>, symbol))</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">print</span>(<span class="fu">head</span>(<span class="fu">Cl</span>(stock_data)))</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>    weekly_prices <span class="ot">&lt;-</span> <span class="fu">to.weekly</span>(<span class="fu">Cl</span>(stock_data))[,<span class="dv">4</span>]  </span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a>    weekly_returns <span class="ot">&lt;-</span> <span class="fu">round</span>(<span class="dv">100</span> <span class="sc">*</span> <span class="fu">Delt</span>(weekly_prices), <span class="dv">2</span>)</span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>    last_return <span class="ot">&lt;-</span> <span class="fu">tail</span>(<span class="fu">na.omit</span>(weekly_returns), <span class="dv">1</span>) <span class="sc">%&gt;%</span> <span class="fu">as.numeric</span>()</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(last_return)</span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>  }, <span class="at">error =</span> <span class="cf">function</span>(e) {</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">"Error fetching data for:"</span>, symbol))</span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(<span class="cn">NA</span>)</span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a>  })</span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Get weekly % change for all stocks</span></span>
+<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a>weekly_changes <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">Symbol =</span> stock_symbols,</span>
+<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a>  <span class="at">Weekly_Change =</span> <span class="fu">sapply</span>(stock_symbols, get_weekly_change)</span>
+<span id="cb27-28"><a href="#cb27-28" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Fetching: A"
+           A.Close
+2024-12-23  134.60
+2024-12-24  136.10
+2024-12-26  135.83
+2024-12-27  135.54
+2024-12-30  134.42
+2024-12-31  134.34
+[1] "Fetching: AA"
+           AA.Close
+2024-12-23    38.58
+2024-12-24    38.61
+2024-12-26    38.35
+2024-12-27    37.68
+2024-12-30    37.15
+2024-12-31    37.78</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AAC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AAC"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AAIC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AAIC"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AAIC^B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AAIC^B"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AAIC^C?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AAIC^C"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AAIN?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AAIN"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AAM^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AAM^A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AAM^B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AAM^B"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AAN?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AAN"
+[1] "Fetching: AAP"
+           AAP.Close
+2024-12-23     43.75
+2024-12-24     43.73
+2024-12-26     44.24
+2024-12-27     44.06
+2024-12-30     46.05
+2024-12-31     47.29
+[1] "Fetching: AAT"
+           AAT.Close
+2024-12-23     26.07
+2024-12-24     26.25
+2024-12-26     26.51
+2024-12-27     26.12
+2024-12-30     26.01
+2024-12-31     26.26
+[1] "Fetching: AB"
+           AB.Close
+2024-12-23    36.49
+2024-12-24    36.80
+2024-12-26    37.41
+2024-12-27    37.24
+2024-12-30    36.46
+2024-12-31    37.09</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ABB?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ABB"
+[1] "Fetching: ABBV"
+           ABBV.Close
+2024-12-23     178.39
+2024-12-24     180.00
+2024-12-26     179.20
+2024-12-27     178.01
+2024-12-30     176.20
+2024-12-31     177.70</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ABC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ABC"
+[1] "Fetching: ABEV"
+           ABEV.Close
+2024-12-23       1.90
+2024-12-24       1.90
+2024-12-26       1.89
+2024-12-27       1.87
+2024-12-30       1.85
+2024-12-31       1.85
+[1] "Fetching: ABG"
+           ABG.Close
+2024-12-23    243.78
+2024-12-24    247.04
+2024-12-26    249.27
+2024-12-27    244.53
+2024-12-30    242.96
+2024-12-31    243.03
+[1] "Fetching: ABM"
+           ABM.Close
+2024-12-23     50.35
+2024-12-24     50.85
+2024-12-26     51.36
+2024-12-27     51.04
+2024-12-30     51.38
+2024-12-31     51.18
+[1] "Fetching: ABR"
+           ABR.Close
+2024-12-23     13.83
+2024-12-24     14.03
+2024-12-26     13.92
+2024-12-27     13.66
+2024-12-30     13.70
+2024-12-31     13.85</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ABR^D?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ABR^D"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ABR^E?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ABR^E"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ABR^F?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ABR^F"
+[1] "Fetching: ABT"
+           ABT.Close
+2024-12-23    114.31
+2024-12-24    114.76
+2024-12-26    115.27
+2024-12-27    114.99
+2024-12-30    112.80
+2024-12-31    113.11
+[1] "Fetching: AC"
+           AC.Close
+2024-12-23    35.81
+2024-12-24    35.36
+2024-12-26    35.36
+2024-12-27    34.99
+2024-12-30    35.36
+2024-12-31    34.26
+[1] "Fetching: ACA"
+           ACA.Close
+2024-12-23     98.43
+2024-12-24    100.02
+2024-12-26    100.15
+2024-12-27     98.53
+2024-12-30     97.26
+2024-12-31     96.74
+[1] "Fetching: ACCO"
+           ACCO.Close
+2024-12-23       5.29
+2024-12-24       5.27
+2024-12-26       5.33
+2024-12-27       5.25
+2024-12-30       5.24
+2024-12-31       5.25
+[1] "Fetching: ACEL"
+           ACEL.Close
+2024-12-23      10.51
+2024-12-24      10.71
+2024-12-26      10.88
+2024-12-27      10.64
+2024-12-30      10.57
+2024-12-31      10.68
+[1] "Fetching: ACHR"
+           ACHR.Close
+2024-12-23       9.38
+2024-12-24      10.80
+2024-12-26      11.33
+2024-12-27      11.18
+2024-12-30      10.06
+2024-12-31       9.75
+[1] "Fetching: ACI"
+           ACI.Close
+2024-12-23     19.63
+2024-12-24     19.63
+2024-12-26     19.83
+2024-12-27     19.92
+2024-12-30     19.62
+2024-12-31     19.64
+[1] "Fetching: ACM"
+           ACM.Close
+2024-12-23    107.92
+2024-12-24    108.41
+2024-12-26    108.59
+2024-12-27    107.68
+2024-12-30    107.05
+2024-12-31    106.82
+[1] "Fetching: ACN"
+           ACN.Close
+2024-12-23    358.77
+2024-12-24    361.63
+2024-12-26    360.43
+2024-12-27    356.18
+2024-12-30    352.49
+2024-12-31    351.79
+[1] "Fetching: ACP"
+           ACP.Close
+2024-12-23      5.96
+2024-12-24      5.99
+2024-12-26      6.06
+2024-12-27      6.05
+2024-12-30      6.00
+2024-12-31      5.97</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ACP^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ACP^A"
+[1] "Fetching: ACR"
+           ACR.Close
+2024-12-23     15.46
+2024-12-24     15.80
+2024-12-26     16.17
+2024-12-27     16.28
+2024-12-30     15.85
+2024-12-31     16.15</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ACR^C?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ACR^C"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ACR^D?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ACR^D"
+[1] "Fetching: ACRE"
+           ACRE.Close
+2024-12-23       6.23
+2024-12-24       6.31
+2024-12-26       6.22
+2024-12-27       6.11
+2024-12-30       6.03
+2024-12-31       5.89</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ACRO?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ACRO"
+[1] "Fetching: ACV"
+           ACV.Close
+2024-12-23     22.17
+2024-12-24     22.33
+2024-12-26     22.47
+2024-12-27     22.39
+2024-12-30     22.13
+2024-12-31     21.95
+[1] "Fetching: ADC"
+           ADC.Close
+2024-12-23     70.29
+2024-12-24     70.95
+2024-12-26     70.81
+2024-12-27     70.30
+2024-12-30     69.91
+2024-12-31     70.45</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ADC^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ADC^A"
+[1] "Fetching: ADCT"
+           ADCT.Close
+2024-12-23       1.99
+2024-12-24       2.03
+2024-12-26       2.12
+2024-12-27       2.03
+2024-12-30       1.90
+2024-12-31       1.99
+[1] "Fetching: ADM"
+           ADM.Close
+2024-12-23     50.41
+2024-12-24     50.63
+2024-12-26     50.61
+2024-12-27     50.58
+2024-12-30     50.07
+2024-12-31     50.52
+[1] "Fetching: ADNT"
+           ADNT.Close
+2024-12-23      16.96
+2024-12-24      17.29
+2024-12-26      17.52
+2024-12-27      17.44
+2024-12-30      17.19
+2024-12-31      17.23
+[1] "Fetching: ADT"
+           ADT.Close
+2024-12-23      6.80
+2024-12-24      6.87
+2024-12-26      6.98
+2024-12-27      6.97
+2024-12-30      6.89
+2024-12-31      6.91
+[1] "Fetching: ADX"
+           ADX.Close
+2024-12-23     20.48
+2024-12-24     20.64
+2024-12-26     20.68
+2024-12-27     20.50
+2024-12-30     20.30
+2024-12-31     20.20
+[1] "Fetching: AEE"
+           AEE.Close
+2024-12-23     89.69
+2024-12-24     90.89
+2024-12-26     90.69
+2024-12-27     90.12
+2024-12-30     89.62
+2024-12-31     89.14
+[1] "Fetching: AEFC"
+           AEFC.Close
+2024-12-23      20.55
+2024-12-24      20.47
+2024-12-26      20.34
+2024-12-27      20.24
+2024-12-30      20.38
+2024-12-31      20.30
+[1] "Fetching: AEG"
+           AEG.Close
+2024-12-23      5.83
+2024-12-24      5.84
+2024-12-26      5.87
+2024-12-27      5.84
+2024-12-30      5.86
+2024-12-31      5.89</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AEL?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AEL"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AEL^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AEL^A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AEL^B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AEL^B"
+[1] "Fetching: AEM"
+           AEM.Close
+2024-12-23     78.84
+2024-12-24     78.73
+2024-12-26     79.01
+2024-12-27     78.65
+2024-12-30     77.85
+2024-12-31     78.21</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AENZ?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AENZ"
+[1] "Fetching: AEO"
+           AEO.Close
+2024-12-23     16.77
+2024-12-24     16.51
+2024-12-26     16.55
+2024-12-27     16.46
+2024-12-30     16.40
+2024-12-31     16.67
+[1] "Fetching: AER"
+           AER.Close
+2024-12-23     95.05
+2024-12-24     95.67
+2024-12-26     95.47
+2024-12-27     95.49
+2024-12-30     95.52
+2024-12-31     95.70
+[1] "Fetching: AES"
+           AES.Close
+2024-12-23     13.06
+2024-12-24     13.02
+2024-12-26     12.84
+2024-12-27     12.75
+2024-12-30     12.65
+2024-12-31     12.87</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AESC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AESC"
+[1] "Fetching: AESI"
+           AESI.Close
+2024-12-23      21.71
+2024-12-24      22.22
+2024-12-26      22.24
+2024-12-27      21.98
+2024-12-30      22.32
+2024-12-31      22.18
+[1] "Fetching: AEVA"
+           AEVA.Close
+2024-12-23       4.36
+2024-12-24       4.49
+2024-12-26       4.78
+2024-12-27       4.77
+2024-12-30       4.75
+2024-12-31       4.75
+[1] "Fetching: AFB"
+           AFB.Close
+2024-12-23     10.89
+2024-12-24     10.81
+2024-12-26     10.86
+2024-12-27     10.82
+2024-12-30     10.84
+2024-12-31     10.87
+[1] "Fetching: AFG"
+           AFG.Close
+2024-12-23    137.29
+2024-12-24    138.33
+2024-12-26    138.16
+2024-12-27    137.00
+2024-12-30    136.04
+2024-12-31    136.93
+[1] "Fetching: AFGB"
+           AFGB.Close
+2024-12-23     22.700
+2024-12-24     22.776
+2024-12-26     22.630
+2024-12-27     22.540
+2024-12-30     22.410
+2024-12-31     22.510
+[1] "Fetching: AFGC"
+           AFGC.Close
+2024-12-23      20.42
+2024-12-24      20.30
+2024-12-26      20.33
+2024-12-27      20.12
+2024-12-30      20.18
+2024-12-31      19.98
+[1] "Fetching: AFGD"
+           AFGD.Close
+2024-12-23     22.620
+2024-12-24     22.385
+2024-12-26     22.250
+2024-12-27     22.090
+2024-12-30     21.740
+2024-12-31     21.640
+[1] "Fetching: AFGE"
+           AFGE.Close
+2024-12-23      18.59
+2024-12-24      18.51
+2024-12-26      18.48
+2024-12-27      18.21
+2024-12-30      18.29
+2024-12-31      17.94
+[1] "Fetching: AFL"
+           AFL.Close
+2024-12-23    102.74
+2024-12-24    103.24
+2024-12-26    103.66
+2024-12-27    103.38
+2024-12-30    102.97
+2024-12-31    103.44</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AFT?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AFT"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AFTR?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AFTR"
+[1] "Fetching: AG"
+           AG.Close
+2024-12-23     5.51
+2024-12-24     5.58
+2024-12-26     5.68
+2024-12-27     5.54
+2024-12-30     5.39
+2024-12-31     5.49</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AGAC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AGAC"
+[1] "Fetching: AGCO"
+           AGCO.Close
+2024-12-23      93.49
+2024-12-24      94.02
+2024-12-26      93.63
+2024-12-27      93.20
+2024-12-30      93.10
+2024-12-31      93.48
+[1] "Fetching: AGD"
+           AGD.Close
+2024-12-23      9.99
+2024-12-24     10.04
+2024-12-26     10.09
+2024-12-27     10.03
+2024-12-30      9.86
+2024-12-31      9.80
+[1] "Fetching: AGI"
+           AGI.Close
+2024-12-23     18.35
+2024-12-24     18.32
+2024-12-26     18.43
+2024-12-27     18.35
+2024-12-30     18.07
+2024-12-31     18.44
+[1] "Fetching: AGL"
+           AGL.Close
+2024-12-23      1.85
+2024-12-24      1.91
+2024-12-26      1.89
+2024-12-27      1.90
+2024-12-30      1.91
+2024-12-31      1.90
+[1] "Fetching: AGM"
+           AGM.Close
+2024-12-23    197.24
+2024-12-24    198.55
+2024-12-26    198.26
+2024-12-27    197.25
+2024-12-30    196.26
+2024-12-31    196.95</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AGM^C?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AGM^C"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AGM^D?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AGM^D"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AGM^E?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AGM^E"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AGM^F?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AGM^F"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AGM^G?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AGM^G"
+[1] "Fetching: AGO"
+           AGO.Close
+2024-12-23     88.01
+2024-12-24     88.93
+2024-12-26     89.64
+2024-12-27     89.58
+2024-12-30     89.37
+2024-12-31     90.01</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AGR?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AGR"
+[1] "Fetching: AGRO"
+           AGRO.Close
+2024-12-23       9.64
+2024-12-24       9.54
+2024-12-26       9.46
+2024-12-27       9.47
+2024-12-30       9.34
+2024-12-31       9.43
+[1] "Fetching: AGS"
+           AGS.Close
+2024-12-23     11.47
+2024-12-24     11.52
+2024-12-26     11.58
+2024-12-27     11.47
+2024-12-30     11.50
+2024-12-31     11.53</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AGTI?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AGTI"
+[1] "Fetching: AGX"
+           AGX.Close
+2024-12-23    140.28
+2024-12-24    143.57
+2024-12-26    145.39
+2024-12-27    142.95
+2024-12-30    138.92
+2024-12-31    137.04
+[1] "Fetching: AHH"
+           AHH.Close
+2024-12-23     10.23
+2024-12-24     10.37
+2024-12-26     10.11
+2024-12-27     10.06
+2024-12-30     10.08
+2024-12-31     10.23</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AHH^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AHH^A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AHL^C?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AHL^C"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AHL^D?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AHL^D"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AHL^E?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AHL^E"
+[1] "Fetching: AHT"
+           AHT.Close
+2024-12-23      7.76
+2024-12-24      7.75
+2024-12-26      7.82
+2024-12-27      7.55
+2024-12-30      7.18
+2024-12-31      7.19</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AHT^D?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AHT^D"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AHT^F?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AHT^F"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AHT^G?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AHT^G"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AHT^H?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AHT^H"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AHT^I?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AHT^I"
+[1] "Fetching: AI"
+           AI.Close
+2024-12-23    35.46
+2024-12-24    35.71
+2024-12-26    37.32
+2024-12-27    35.73
+2024-12-30    35.29
+2024-12-31    34.43</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AIC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AIC"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AIF?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AIF"
+[1] "Fetching: AIG"
+           AIG.Close
+2024-12-23     72.47
+2024-12-24     72.84
+2024-12-26     73.34
+2024-12-27     73.00
+2024-12-30     72.55
+2024-12-31     72.80</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AIG^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AIG^A"
+[1] "Fetching: AIN"
+           AIN.Close
+2024-12-23     79.90
+2024-12-24     80.73
+2024-12-26     80.81
+2024-12-27     80.13
+2024-12-30     79.76
+2024-12-31     79.97
+[1] "Fetching: AIO"
+           AIO.Close
+2024-12-23     24.31
+2024-12-24     25.12
+2024-12-26     25.09
+2024-12-27     25.08
+2024-12-30     24.95
+2024-12-31     24.66
+[1] "Fetching: AIR"
+           AIR.Close
+2024-12-23     59.86
+2024-12-24     60.93
+2024-12-26     61.05
+2024-12-27     60.40
+2024-12-30     61.12
+2024-12-31     61.28</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AIRC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AIRC"
+[1] "Fetching: AIT"
+           AIT.Close
+2024-12-23    241.10
+2024-12-24    243.51
+2024-12-26    244.44
+2024-12-27    241.55
+2024-12-30    238.66
+2024-12-31    239.47</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AIU?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AIU"
+[1] "Fetching: AIV"
+           AIV.Close
+2024-12-23      8.20
+2024-12-24      8.27
+2024-12-26      8.36
+2024-12-27      8.32
+2024-12-30      8.39
+2024-12-31      9.09
+[1] "Fetching: AIZ"
+           AIZ.Close
+2024-12-23    211.40
+2024-12-24    215.43
+2024-12-26    217.19
+2024-12-27    215.05
+2024-12-30    212.27
+2024-12-31    213.22
+[1] "Fetching: AIZN"
+           AIZN.Close
+2024-12-23      21.03
+2024-12-24      21.00
+2024-12-26      21.01
+2024-12-27      20.82
+2024-12-30      20.85
+2024-12-31      20.07
+[1] "Fetching: AJG"
+           AJG.Close
+2024-12-23    284.51
+2024-12-24    288.35
+2024-12-26    288.36
+2024-12-27    286.54
+2024-12-30    284.46
+2024-12-31    283.85</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AJRD?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AJRD"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AJX?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AJX"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AJXA?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AJXA"
+[1] "Fetching: AKA"
+           AKA.Close
+2024-12-23     21.34
+2024-12-24     19.82
+2024-12-26     19.61
+2024-12-27     19.41
+2024-12-30     18.49
+2024-12-31     18.72</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AKO/A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AKO/A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AKO/B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AKO/B"
+[1] "Fetching: AKR"
+           AKR.Close
+2024-12-23     23.86
+2024-12-24     24.10
+2024-12-26     24.15
+2024-12-27     23.99
+2024-12-30     23.99
+2024-12-31     24.16
+[1] "Fetching: AL"
+           AL.Close
+2024-12-23    48.61
+2024-12-24    49.21
+2024-12-26    49.58
+2024-12-27    48.90
+2024-12-30    48.04
+2024-12-31    48.21</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AL^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AL^A"
+[1] "Fetching: ALB"
+           ALB.Close
+2024-12-23     89.20
+2024-12-24     89.99
+2024-12-26     89.15
+2024-12-27     88.29
+2024-12-30     86.14
+2024-12-31     86.08
+[1] "Fetching: ALC"
+           ALC.Close
+2024-12-23     85.38
+2024-12-24     86.08
+2024-12-26     86.30
+2024-12-27     85.65
+2024-12-30     84.75
+2024-12-31     84.89</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ALCC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ALCC"
+[1] "Fetching: ALE"
+           ALE.Close
+2024-12-23     64.60
+2024-12-24     64.37
+2024-12-26     64.61
+2024-12-27     64.43
+2024-12-30     64.63
+2024-12-31     64.80
+[1] "Fetching: ALEX"
+           ALEX.Close
+2024-12-23      17.46
+2024-12-24      17.58
+2024-12-26      17.56
+2024-12-27      17.40
+2024-12-30      17.61
+2024-12-31      17.74
+[1] "Fetching: ALG"
+           ALG.Close
+2024-12-23    186.54
+2024-12-24    188.26
+2024-12-26    188.29
+2024-12-27    185.40
+2024-12-30    185.40
+2024-12-31    185.91
+[1] "Fetching: ALIT"
+           ALIT.Close
+2024-12-23       6.77
+2024-12-24       6.84
+2024-12-26       6.92
+2024-12-27       6.91
+2024-12-30       6.84
+2024-12-31       6.92
+[1] "Fetching: ALK"
+           ALK.Close
+2024-12-23     67.47
+2024-12-24     67.60
+2024-12-26     67.02
+2024-12-27     65.83
+2024-12-30     64.87
+2024-12-31     64.75
+[1] "Fetching: ALL"
+           ALL.Close
+2024-12-23    193.63
+2024-12-24    195.52
+2024-12-26    195.62
+2024-12-27    193.80
+2024-12-30    192.55
+2024-12-31    192.79</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ALL^B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ALL^B"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ALL^H?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ALL^H"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ALL^I?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ALL^I"
+[1] "Fetching: ALLE"
+           ALLE.Close
+2024-12-23     132.13
+2024-12-24     133.04
+2024-12-26     132.99
+2024-12-27     131.97
+2024-12-30     130.97
+2024-12-31     130.68</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ALLG?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ALLG"
+[1] "Fetching: ALLY"
+           ALLY.Close
+2024-12-23      35.26
+2024-12-24      35.75
+2024-12-26      36.01
+2024-12-27      35.65
+2024-12-30      35.70
+2024-12-31      36.01
+[1] "Fetching: ALSN"
+           ALSN.Close
+2024-12-23     108.36
+2024-12-24     109.14
+2024-12-26     110.01
+2024-12-27     108.74
+2024-12-30     108.03
+2024-12-31     108.06
+[1] "Fetching: ALTG"
+           ALTG.Close
+2024-12-23       6.72
+2024-12-24       6.70
+2024-12-26       7.01
+2024-12-27       6.74
+2024-12-30       6.52
+2024-12-31       6.54</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ALTG^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ALTG^A"
+[1] "Fetching: ALV"
+           ALV.Close
+2024-12-23     92.14
+2024-12-24     93.69
+2024-12-26     93.97
+2024-12-27     94.39
+2024-12-30     92.98
+2024-12-31     93.79
+[1] "Fetching: ALX"
+           ALX.Close
+2024-12-23    199.49
+2024-12-24    201.00
+2024-12-26    202.30
+2024-12-27    198.18
+2024-12-30    199.96
+2024-12-31    200.06
+[1] "Fetching: AM"
+           AM.Close
+2024-12-23    15.06
+2024-12-24    15.30
+2024-12-26    15.15
+2024-12-27    15.11
+2024-12-30    15.15
+2024-12-31    15.09
+[1] "Fetching: AMBC"
+           AMBC.Close
+2024-12-23      12.00
+2024-12-24      12.32
+2024-12-26      12.42
+2024-12-27      12.34
+2024-12-30      12.41
+2024-12-31      12.65
+[1] "Fetching: AMBP"
+           AMBP.Close
+2024-12-23       3.06
+2024-12-24       3.02
+2024-12-26       2.98
+2024-12-27       3.02
+2024-12-30       2.96
+2024-12-31       3.01
+[1] "Fetching: AMC"
+           AMC.Close
+2024-12-23      4.12
+2024-12-24      4.06
+2024-12-26      4.05
+2024-12-27      4.00
+2024-12-30      3.97
+2024-12-31      3.98
+[1] "Fetching: AMCR"
+           AMCR.Close
+2024-12-23       9.43
+2024-12-24       9.49
+2024-12-26       9.46
+2024-12-27       9.44
+2024-12-30       9.34
+2024-12-31       9.41
+[1] "Fetching: AME"
+           AME.Close
+2024-12-23    182.07
+2024-12-24    184.05
+2024-12-26    183.72
+2024-12-27    182.45
+2024-12-30    180.74
+2024-12-31    180.26
+[1] "Fetching: AMG"
+           AMG.Close
+2024-12-23    184.64
+2024-12-24    187.49
+2024-12-26    189.47
+2024-12-27    187.64
+2024-12-30    185.25
+2024-12-31    184.92
+[1] "Fetching: AMH"
+           AMH.Close
+2024-12-23     36.83
+2024-12-24     37.15
+2024-12-26     37.15
+2024-12-27     37.10
+2024-12-30     37.04
+2024-12-31     37.42</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AMH^G?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AMH^G"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AMH^H?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AMH^H"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AMK?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AMK"
+[1] "Fetching: AMN"
+           AMN.Close
+2024-12-23     23.21
+2024-12-24     23.39
+2024-12-26     24.10
+2024-12-27     24.24
+2024-12-30     23.81
+2024-12-31     23.92
+[1] "Fetching: AMP"
+           AMP.Close
+2024-12-23    534.23
+2024-12-24    538.78
+2024-12-26    542.39
+2024-12-27    535.95
+2024-12-30    530.54
+2024-12-31    532.43
+[1] "Fetching: AMPS"
+           AMPS.Close
+2024-12-23       4.08
+2024-12-24       4.12
+2024-12-26       4.27
+2024-12-27       4.23
+2024-12-30       4.14
+2024-12-31       4.07
+[1] "Fetching: AMPX"
+           AMPX.Close
+2024-12-23       1.90
+2024-12-24       1.90
+2024-12-26       2.37
+2024-12-27       2.36
+2024-12-30       2.98
+2024-12-31       2.80
+[1] "Fetching: AMPY"
+           AMPY.Close
+2024-12-23       5.71
+2024-12-24       5.78
+2024-12-26       5.71
+2024-12-27       5.72
+2024-12-30       5.91
+2024-12-31       6.00
+[1] "Fetching: AMR"
+           AMR.Close
+2024-12-23    201.91
+2024-12-24    199.85
+2024-12-26    198.84
+2024-12-27    198.98
+2024-12-30    201.11
+2024-12-31    200.12
+[1] "Fetching: AMRC"
+           AMRC.Close
+2024-12-23      22.85
+2024-12-24      23.53
+2024-12-26      23.47
+2024-12-27      23.18
+2024-12-30      22.97
+2024-12-31      23.48
+[1] "Fetching: AMRX"
+           AMRX.Close
+2024-12-23       7.79
+2024-12-24       7.85
+2024-12-26       7.85
+2024-12-27       7.82
+2024-12-30       7.83
+2024-12-31       7.92
+[1] "Fetching: AMT"
+           AMT.Close
+2024-12-23    184.38
+2024-12-24    184.71
+2024-12-26    183.98
+2024-12-27    181.87
+2024-12-30    181.92
+2024-12-31    183.41
+[1] "Fetching: AMTD"
+           AMTD.Close
+2024-12-23      1.120
+2024-12-24      1.130
+2024-12-26      1.130
+2024-12-27      1.141
+2024-12-30      1.110
+2024-12-31      1.200
+[1] "Fetching: AMWL"
+           AMWL.Close
+2024-12-23       7.44
+2024-12-24       7.63
+2024-12-26       7.70
+2024-12-27       7.80
+2024-12-30       7.47
+2024-12-31       7.25
+[1] "Fetching: AMX"
+           AMX.Close
+2024-12-23     14.05
+2024-12-24     14.21
+2024-12-26     14.39
+2024-12-27     14.51
+2024-12-30     14.14
+2024-12-31     14.31
+[1] "Fetching: AN"
+           AN.Close
+2024-12-23   171.20
+2024-12-24   173.84
+2024-12-26   173.61
+2024-12-27   171.85
+2024-12-30   168.72
+2024-12-31   169.84
+[1] "Fetching: ANET"
+           ANET.Close
+2024-12-23     113.09
+2024-12-24     114.65
+2024-12-26     114.86
+2024-12-27     113.03
+2024-12-30     111.45
+2024-12-31     110.53
+[1] "Fetching: ANF"
+           ANF.Close
+2024-12-23    152.96
+2024-12-24    152.07
+2024-12-26    155.34
+2024-12-27    153.88
+2024-12-30    154.65
+2024-12-31    149.47
+[1] "Fetching: ANVS"
+           ANVS.Close
+2024-12-23       4.46
+2024-12-24       5.01
+2024-12-26       5.16
+2024-12-27       5.27
+2024-12-30       5.08
+2024-12-31       5.03
+[1] "Fetching: AOD"
+           AOD.Close
+2024-12-23      8.59
+2024-12-24      8.66
+2024-12-26      8.70
+2024-12-27      8.62
+2024-12-30      8.44
+2024-12-31      8.41
+[1] "Fetching: AOMR"
+           AOMR.Close
+2024-12-23       9.28
+2024-12-24       9.31
+2024-12-26       9.40
+2024-12-27       9.24
+2024-12-30       9.12
+2024-12-31       9.28
+[1] "Fetching: AON"
+           AON.Close
+2024-12-23    358.28
+2024-12-24    361.61
+2024-12-26    361.46
+2024-12-27    360.38
+2024-12-30    357.97
+2024-12-31    359.16
+[1] "Fetching: AORT"
+           AORT.Close
+2024-12-23      28.28
+2024-12-24      28.55
+2024-12-26      29.34
+2024-12-27      29.00
+2024-12-30      28.59
+2024-12-31      28.59
+[1] "Fetching: AOS"
+           AOS.Close
+2024-12-23     68.56
+2024-12-24     68.89
+2024-12-26     68.89
+2024-12-27     68.43
+2024-12-30     68.02
+2024-12-31     68.21
+[1] "Fetching: AP"
+           AP.Close
+2024-12-23     1.99
+2024-12-24     2.02
+2024-12-26     2.03
+2024-12-27     2.06
+2024-12-30     2.28
+2024-12-31     2.09
+[1] "Fetching: APAM"
+           APAM.Close
+2024-12-23      43.91
+2024-12-24      44.24
+2024-12-26      44.66
+2024-12-27      43.97
+2024-12-30      43.21
+2024-12-31      43.05</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/APCA?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: APCA"
+[1] "Fetching: APD"
+           APD.Close
+2024-12-23    293.55
+2024-12-24    296.02
+2024-12-26    295.08
+2024-12-27    292.81
+2024-12-30    288.69
+2024-12-31    290.04</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/APE?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: APE"
+[1] "Fetching: APG"
+           APG.Close
+2024-12-23     36.57
+2024-12-24     36.71
+2024-12-26     36.51
+2024-12-27     36.00
+2024-12-30     36.02
+2024-12-31     35.97</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/APGB?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: APGB"
+[1] "Fetching: APH"
+           APH.Close
+2024-12-23     70.99
+2024-12-24     71.66
+2024-12-26     71.56
+2024-12-27     70.74
+2024-12-30     69.50
+2024-12-31     69.45
+[1] "Fetching: APLE"
+           APLE.Close
+2024-12-23      15.61
+2024-12-24      15.71
+2024-12-26      15.76
+2024-12-27      15.44
+2024-12-30      15.43
+2024-12-31      15.35
+[1] "Fetching: APO"
+           APO.Close
+2024-12-23    171.63
+2024-12-24    174.85
+2024-12-26    174.37
+2024-12-27    170.28
+2024-12-30    166.51
+2024-12-31    165.16</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/APRN?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: APRN"
+[1] "Fetching: APTV"
+           APTV.Close
+2024-12-23      59.47
+2024-12-24      59.95
+2024-12-26      60.07
+2024-12-27      60.34
+2024-12-30      60.11
+2024-12-31      60.48</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/APTV^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: APTV^A"
+[1] "Fetching: AQN"
+           AQN.Close
+2024-12-23      4.48
+2024-12-24      4.49
+2024-12-26      4.52
+2024-12-27      4.48
+2024-12-30      4.48
+2024-12-31      4.45</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AQNA?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AQNA"
+[1] "Fetching: AQNB"
+           AQNB.Close
+2024-12-23      25.35
+2024-12-24      25.31
+2024-12-26      25.37
+2024-12-27      25.40
+2024-12-30      25.49
+2024-12-31      25.22</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AQNU?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AQNU"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AQUA?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AQUA"
+[1] "Fetching: AR"
+           AR.Close
+2024-12-23    32.31
+2024-12-24    33.25
+2024-12-26    32.81
+2024-12-27    33.30
+2024-12-30    35.52
+2024-12-31    35.05</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ARC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ARC"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ARCH?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ARCH"
+[1] "Fetching: ARCO"
+           ARCO.Close
+2024-12-23       7.45
+2024-12-24       7.45
+2024-12-26       7.38
+2024-12-27       7.29
+2024-12-30       7.21
+2024-12-31       7.28
+[1] "Fetching: ARDC"
+           ARDC.Close
+2024-12-23      15.04
+2024-12-24      15.13
+2024-12-26      15.13
+2024-12-27      15.05
+2024-12-30      15.14
+2024-12-31      15.11
+[1] "Fetching: ARE"
+           ARE.Close
+2024-12-23     98.91
+2024-12-24     99.44
+2024-12-26     99.64
+2024-12-27     98.35
+2024-12-30     97.80
+2024-12-31     97.55
+[1] "Fetching: ARES"
+           ARES.Close
+2024-12-23     179.00
+2024-12-24     181.06
+2024-12-26     182.72
+2024-12-27     179.50
+2024-12-30     179.02
+2024-12-31     177.03
+[1] "Fetching: ARGD"
+           ARGD.Close
+2024-12-23      21.71
+2024-12-24      21.69
+2024-12-26      21.69
+2024-12-27      21.70
+2024-12-30      21.75
+2024-12-31      22.36</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ARGO?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ARGO"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ARGO^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ARGO^A"
+[1] "Fetching: ARI"
+           ARI.Close
+2024-12-23      8.98
+2024-12-24      9.09
+2024-12-26      9.06
+2024-12-27      8.90
+2024-12-30      8.76
+2024-12-31      8.66
+[1] "Fetching: ARIS"
+           ARIS.Close
+2024-12-23      24.61
+2024-12-24      25.24
+2024-12-26      25.34
+2024-12-27      24.07
+2024-12-30      24.36
+2024-12-31      23.95
+[1] "Fetching: ARL"
+           ARL.Close
+2024-12-23     15.59
+2024-12-24     15.31
+2024-12-26     15.62
+2024-12-27     14.77
+2024-12-30     14.67
+2024-12-31     14.68
+[1] "Fetching: ARLO"
+           ARLO.Close
+2024-12-23      11.39
+2024-12-24      11.54
+2024-12-26      11.77
+2024-12-27      11.47
+2024-12-30      11.25
+2024-12-31      11.19
+[1] "Fetching: ARMK"
+           ARMK.Close
+2024-12-23      37.65
+2024-12-24      37.67
+2024-12-26      37.65
+2024-12-27      37.43
+2024-12-30      37.25
+2024-12-31      37.31</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ARNC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ARNC"
+[1] "Fetching: AROC"
+           AROC.Close
+2024-12-23      24.53
+2024-12-24      24.80
+2024-12-26      24.82
+2024-12-27      24.54
+2024-12-30      24.89
+2024-12-31      24.89
+[1] "Fetching: ARR"
+           ARR.Close
+2024-12-23     18.69
+2024-12-24     18.85
+2024-12-26     18.68
+2024-12-27     18.69
+2024-12-30     18.59
+2024-12-31     18.86</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ARR^C?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ARR^C"
+[1] "Fetching: ARW"
+           ARW.Close
+2024-12-23    114.94
+2024-12-24    115.47
+2024-12-26    115.03
+2024-12-27    113.97
+2024-12-30    112.44
+2024-12-31    113.12
+[1] "Fetching: ASA"
+           ASA.Close
+2024-12-23     20.05
+2024-12-24     20.10
+2024-12-26     20.32
+2024-12-27     20.15
+2024-12-30     20.10
+2024-12-31     20.22</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ASAI?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ASAI"
+[1] "Fetching: ASAN"
+           ASAN.Close
+2024-12-23      21.47
+2024-12-24      21.98
+2024-12-26      22.73
+2024-12-27      21.59
+2024-12-30      20.63
+2024-12-31      20.27
+[1] "Fetching: ASB"
+           ASB.Close
+2024-12-23     24.26
+2024-12-24     24.37
+2024-12-26     24.51
+2024-12-27     24.05
+2024-12-30     23.92
+2024-12-31     23.90</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ASB^E?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ASB^E"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ASB^F?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ASB^F"
+[1] "Fetching: ASBA"
+           ASBA.Close
+2024-12-23      24.93
+2024-12-24      24.86
+2024-12-26      24.87
+2024-12-27      24.69
+2024-12-30      24.89
+2024-12-31      24.71
+[1] "Fetching: ASC"
+           ASC.Close
+2024-12-23     11.88
+2024-12-24     12.12
+2024-12-26     11.97
+2024-12-27     11.99
+2024-12-30     12.01
+2024-12-31     12.15
+[1] "Fetching: ASG"
+           ASG.Close
+2024-12-23      5.76
+2024-12-24      5.82
+2024-12-26      5.83
+2024-12-27      5.75
+2024-12-30      5.71
+2024-12-31      5.65
+[1] "Fetching: ASGI"
+           ASGI.Close
+2024-12-23      17.94
+2024-12-24      18.06
+2024-12-26      18.31
+2024-12-27      18.14
+2024-12-30      17.77
+2024-12-31      17.53
+[1] "Fetching: ASGN"
+           ASGN.Close
+2024-12-23      83.56
+2024-12-24      84.15
+2024-12-26      84.95
+2024-12-27      83.69
+2024-12-30      83.47
+2024-12-31      83.34
+[1] "Fetching: ASH"
+           ASH.Close
+2024-12-23     71.41
+2024-12-24     71.70
+2024-12-26     72.14
+2024-12-27     71.57
+2024-12-30     70.93
+2024-12-31     71.46
+[1] "Fetching: ASIX"
+           ASIX.Close
+2024-12-23      27.85
+2024-12-24      28.44
+2024-12-26      28.52
+2024-12-27      28.16
+2024-12-30      28.00
+2024-12-31      28.49
+[1] "Fetching: ASPN"
+           ASPN.Close
+2024-12-23      12.05
+2024-12-24      11.90
+2024-12-26      12.39
+2024-12-27      12.47
+2024-12-30      12.02
+2024-12-31      11.88
+[1] "Fetching: ASR"
+           ASR.Close
+2024-12-23    263.99
+2024-12-24    265.80
+2024-12-26    265.11
+2024-12-27    263.17
+2024-12-30    259.43
+2024-12-31    257.63
+[1] "Fetching: ASX"
+           ASX.Close
+2024-12-23     10.38
+2024-12-24     10.55
+2024-12-26     10.38
+2024-12-27     10.34
+2024-12-30     10.15
+2024-12-31     10.07</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ATCO^D?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ATCO^D"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ATCO^H?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ATCO^H"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ATCO^I?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ATCO^I"
+[1] "Fetching: ATEK"
+           ATEK.Close
+2024-12-23          1
+2024-12-24          1
+2024-12-26          1
+2024-12-27          1
+2024-12-30          1
+2024-12-31          1
+[1] "Fetching: ATEN"
+           ATEN.Close
+2024-12-23      18.51
+2024-12-24      18.61
+2024-12-26      18.81
+2024-12-27      18.58
+2024-12-30      18.41
+2024-12-31      18.40
+[1] "Fetching: ATGE"
+           ATGE.Close
+2024-12-23      89.21
+2024-12-24      91.06
+2024-12-26      92.11
+2024-12-27      90.87
+2024-12-30      90.13
+2024-12-31      90.85</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ATH^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ATH^A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ATH^B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ATH^B"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ATH^C?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ATH^C"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ATH^D?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ATH^D"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ATH^E?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ATH^E"
+[1] "Fetching: ATHM"
+           ATHM.Close
+2024-12-23      26.38
+2024-12-24      26.45
+2024-12-26      26.54
+2024-12-27      26.74
+2024-12-30      26.17
+2024-12-31      25.95
+[1] "Fetching: ATI"
+           ATI.Close
+2024-12-23     55.23
+2024-12-24     55.82
+2024-12-26     56.14
+2024-12-27     55.45
+2024-12-30     54.87
+2024-12-31     55.04
+[1] "Fetching: ATIP"
+           ATIP.Close
+2024-12-23       2.45
+2024-12-24       2.47
+2024-12-26       2.47
+2024-12-27       2.49
+2024-12-30       2.55
+2024-12-31       2.50
+[1] "Fetching: ATKR"
+           ATKR.Close
+2024-12-23      82.92
+2024-12-24      83.21
+2024-12-26      83.90
+2024-12-27      83.37
+2024-12-30      82.70
+2024-12-31      83.45
+[1] "Fetching: ATO"
+           ATO.Close
+2024-12-23    139.20
+2024-12-24    140.06
+2024-12-26    140.00
+2024-12-27    139.36
+2024-12-30    138.93
+2024-12-31    139.27
+[1] "Fetching: ATR"
+           ATR.Close
+2024-12-23    158.52
+2024-12-24    159.35
+2024-12-26    158.85
+2024-12-27    158.15
+2024-12-30    156.73
+2024-12-31    157.10</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/ATTO?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: ATTO"
+[1] "Fetching: ATUS"
+           ATUS.Close
+2024-12-23       2.50
+2024-12-24       2.50
+2024-12-26       2.45
+2024-12-27       2.41
+2024-12-30       2.34
+2024-12-31       2.41
+[1] "Fetching: AU"
+           AU.Close
+2024-12-23    23.66
+2024-12-24    23.69
+2024-12-26    23.64
+2024-12-27    23.27
+2024-12-30    22.89
+2024-12-31    23.08
+[1] "Fetching: AUB"
+           AUB.Close
+2024-12-23     37.96
+2024-12-24     38.26
+2024-12-26     38.63
+2024-12-27     38.08
+2024-12-30     37.85
+2024-12-31     37.88</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AUB^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AUB^A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AUD?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AUD"
+[1] "Fetching: AVA"
+           AVA.Close
+2024-12-23     36.52
+2024-12-24     36.66
+2024-12-26     36.83
+2024-12-27     36.53
+2024-12-30     36.67
+2024-12-31     36.63
+[1] "Fetching: AVAL"
+           AVAL.Close
+2024-12-23       2.06
+2024-12-24       2.08
+2024-12-26       2.08
+2024-12-27       2.07
+2024-12-30       2.01
+2024-12-31       2.03
+[1] "Fetching: AVB"
+           AVB.Close
+2024-12-23    221.67
+2024-12-24    223.28
+2024-12-26    223.31
+2024-12-27    221.18
+2024-12-30    219.79
+2024-12-31    219.97
+[1] "Fetching: AVD"
+           AVD.Close
+2024-12-23      4.35
+2024-12-24      4.35
+2024-12-26      4.56
+2024-12-27      4.56
+2024-12-30      4.57
+2024-12-31      4.63
+[1] "Fetching: AVK"
+           AVK.Close
+2024-12-23     11.76
+2024-12-24     11.95
+2024-12-26     11.87
+2024-12-27     11.80
+2024-12-30     11.76
+2024-12-31     11.77
+[1] "Fetching: AVNS"
+           AVNS.Close
+2024-12-23      16.03
+2024-12-24      16.02
+2024-12-26      16.16
+2024-12-27      15.92
+2024-12-30      15.58
+2024-12-31      15.92
+[1] "Fetching: AVNT"
+           AVNT.Close
+2024-12-23      41.00
+2024-12-24      41.38
+2024-12-26      41.37
+2024-12-27      40.45
+2024-12-30      40.12
+2024-12-31      40.86
+[1] "Fetching: AVTR"
+           AVTR.Close
+2024-12-23      21.26
+2024-12-24      21.36
+2024-12-26      21.48
+2024-12-27      21.41
+2024-12-30      21.08
+2024-12-31      21.07
+[1] "Fetching: AVY"
+           AVY.Close
+2024-12-23    188.58
+2024-12-24    189.38
+2024-12-26    189.35
+2024-12-27    188.51
+2024-12-30    187.24
+2024-12-31    187.13
+[1] "Fetching: AWF"
+           AWF.Close
+2024-12-23     10.60
+2024-12-24     10.66
+2024-12-26     10.67
+2024-12-27     10.61
+2024-12-30     10.62
+2024-12-31     10.73
+[1] "Fetching: AWI"
+           AWI.Close
+2024-12-23    143.15
+2024-12-24    144.72
+2024-12-26    145.07
+2024-12-27    143.65
+2024-12-30    141.91
+2024-12-31    141.33
+[1] "Fetching: AWK"
+           AWK.Close
+2024-12-23    125.98
+2024-12-24    125.73
+2024-12-26    126.16
+2024-12-27    125.29
+2024-12-30    124.24
+2024-12-31    124.49
+[1] "Fetching: AWP"
+           AWP.Close
+2024-12-23      3.91
+2024-12-24      3.97
+2024-12-26      4.00
+2024-12-27      3.94
+2024-12-30      3.88
+2024-12-31      3.86
+[1] "Fetching: AWR"
+           AWR.Close
+2024-12-23     78.34
+2024-12-24     78.35
+2024-12-26     78.63
+2024-12-27     77.97
+2024-12-30     78.04
+2024-12-31     77.72
+[1] "Fetching: AX"
+           AX.Close
+2024-12-23    71.49
+2024-12-24    72.47
+2024-12-26    72.61
+2024-12-27    71.29
+2024-12-30    70.90
+2024-12-31    69.85
+[1] "Fetching: AXAC"
+           AXAC.Close
+2024-12-23      10.43
+2024-12-24      10.43
+2024-12-26      10.43
+2024-12-27      10.43
+2024-12-30      10.43
+2024-12-31      10.43
+[1] "Fetching: AXL"
+           AXL.Close
+2024-12-23      5.75
+2024-12-24      5.89
+2024-12-26      5.99
+2024-12-27      5.86
+2024-12-30      5.78
+2024-12-31      5.83
+[1] "Fetching: AXP"
+           AXP.Close
+2024-12-23    298.80
+2024-12-24    303.46
+2024-12-26    303.99
+2024-12-27    301.05
+2024-12-30    297.33
+2024-12-31    296.79
+[1] "Fetching: AXR"
+           AXR.Close
+2024-12-23     29.78
+2024-12-24     31.41
+2024-12-26     30.83
+2024-12-27     30.54
+2024-12-30     31.81
+2024-12-31     31.40
+[1] "Fetching: AXS"
+           AXS.Close
+2024-12-23     89.86
+2024-12-24     89.98
+2024-12-26     90.47
+2024-12-27     89.29
+2024-12-30     88.77
+2024-12-31     88.62</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AXS^E?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AXS^E"
+[1] "Fetching: AXTA"
+           AXTA.Close
+2024-12-23      34.35
+2024-12-24      34.44
+2024-12-26      34.63
+2024-12-27      34.37
+2024-12-30      34.01
+2024-12-31      34.22
+[1] "Fetching: AYI"
+           AYI.Close
+2024-12-23    302.33
+2024-12-24    303.16
+2024-12-26    303.00
+2024-12-27    297.73
+2024-12-30    294.17
+2024-12-31    292.13</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AYX?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AYX"
+[1] "Fetching: AZEK"
+           AZEK.Close
+2024-12-23      49.10
+2024-12-24      49.26
+2024-12-26      49.29
+2024-12-27      48.52
+2024-12-30      47.97
+2024-12-31      47.47
+[1] "Fetching: AZO"
+           AZO.Close
+2024-12-23   3242.23
+2024-12-24   3283.48
+2024-12-26   3241.25
+2024-12-27   3241.62
+2024-12-30   3185.71
+2024-12-31   3202.00</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/AZRE?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: AZRE"
+[1] "Fetching: AZUL"
+           AZUL.Close
+2024-12-23       1.62
+2024-12-24       1.65
+2024-12-26       1.59
+2024-12-27       1.63
+2024-12-30       1.68
+2024-12-31       1.67
+[1] "Fetching: AZZ"
+           AZZ.Close
+2024-12-23     81.65
+2024-12-24     82.72
+2024-12-26     83.32
+2024-12-27     82.06
+2024-12-30     81.33
+2024-12-31     81.92</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: B contains missing values. Some functions will not work if objects
+contain missing values in the middle of the series. Consider using na.omit(),
+na.approx(), na.fill(), etc to remove or replace them.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Fetching: B"
+           B.Close
+2024-12-23   47.14
+2024-12-24   47.18
+2024-12-26   47.20
+2024-12-27   47.21
+2024-12-30   47.26
+2024-12-31   47.26</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in to.period(x, "weeks", name = name, ...): missing values removed from
+data</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Fetching: BA"
+           BA.Close
+2024-12-23   177.69
+2024-12-24   179.34
+2024-12-26   180.38
+2024-12-27   180.72
+2024-12-30   176.55
+2024-12-31   177.00
+[1] "Fetching: BABA"
+           BABA.Close
+2024-12-23      85.14
+2024-12-24      85.52
+2024-12-26      86.08
+2024-12-27      85.06
+2024-12-30      84.13
+2024-12-31      84.79
+[1] "Fetching: BAC"
+           BAC.Close
+2024-12-23     43.89
+2024-12-24     44.38
+2024-12-26     44.55
+2024-12-27     44.34
+2024-12-30     43.91
+2024-12-31     43.95</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^B"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^E?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^E"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^K?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^K"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^L?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^L"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^M?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^M"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^N?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^N"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^O?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^O"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^P?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^P"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^Q?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^Q"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BAC^S?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BAC^S"
+[1] "Fetching: BAH"
+           BAH.Close
+2024-12-23    131.11
+2024-12-24    129.70
+2024-12-26    130.40
+2024-12-27    129.65
+2024-12-30    128.36
+2024-12-31    128.70
+[1] "Fetching: BAK"
+           BAK.Close
+2024-12-23      3.84
+2024-12-24      3.93
+2024-12-26      3.84
+2024-12-27      3.80
+2024-12-30      3.80
+2024-12-31      3.86
+[1] "Fetching: BALL"
+           BALL.Close
+2024-12-23      55.72
+2024-12-24      56.16
+2024-12-26      56.19
+2024-12-27      55.83
+2024-12-30      54.99
+2024-12-31      55.13
+[1] "Fetching: BALY"
+           BALY.Close
+2024-12-23     16.610
+2024-12-24     16.675
+2024-12-26     17.450
+2024-12-27     17.850
+2024-12-30     17.980
+2024-12-31     18.470
+[1] "Fetching: BAM"
+           BAM.Close
+2024-12-23     54.76
+2024-12-24     55.46
+2024-12-26     55.37
+2024-12-27     54.64
+2024-12-30     54.59
+2024-12-31     54.19
+[1] "Fetching: BANC"
+           BANC.Close
+2024-12-23      15.55
+2024-12-24      15.56
+2024-12-26      15.68
+2024-12-27      15.51
+2024-12-30      15.57
+2024-12-31      15.46
+[1] "Fetching: BAP"
+           BAP.Close
+2024-12-23    181.79
+2024-12-24    182.97
+2024-12-26    182.71
+2024-12-27    181.12
+2024-12-30    180.18
+2024-12-31    183.32
+[1] "Fetching: BARK"
+           BARK.Close
+2024-12-23       1.88
+2024-12-24       1.90
+2024-12-26       1.93
+2024-12-27       1.87
+2024-12-30       1.86
+2024-12-31       1.84
+[1] "Fetching: BAX"
+           BAX.Close
+2024-12-23     29.18
+2024-12-24     29.08
+2024-12-26     29.30
+2024-12-27     29.20
+2024-12-30     28.63
+2024-12-31     29.16
+[1] "Fetching: BB"
+           BB.Close
+2024-12-23     3.79
+2024-12-24     3.96
+2024-12-26     3.95
+2024-12-27     3.91
+2024-12-30     3.83
+2024-12-31     3.78
+[1] "Fetching: BBAI"
+           BBAI.Close
+2024-12-23       3.19
+2024-12-24       3.73
+2024-12-26       4.45
+2024-12-27       4.21
+2024-12-30       4.81
+2024-12-31       4.45
+[1] "Fetching: BBAR"
+           BBAR.Close
+2024-12-23      18.48
+2024-12-24      19.46
+2024-12-26      19.56
+2024-12-27      19.68
+2024-12-30      19.05
+2024-12-31      19.06
+[1] "Fetching: BBD"
+           BBD.Close
+2024-12-23      1.90
+2024-12-24      1.93
+2024-12-26      1.92
+2024-12-27      1.90
+2024-12-30      1.90
+2024-12-31      1.91
+[1] "Fetching: BBDC"
+           BBDC.Close
+2024-12-23       9.42
+2024-12-24       9.50
+2024-12-26       9.51
+2024-12-27       9.52
+2024-12-30       9.53
+2024-12-31       9.57
+[1] "Fetching: BBDO"
+           BBDO.Close
+2024-12-23       1.79
+2024-12-24       1.83
+2024-12-26       1.80
+2024-12-27       1.79
+2024-12-30       1.78
+2024-12-31       1.79</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BBLN?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BBLN"
+[1] "Fetching: BBN"
+           BBN.Close
+2024-12-23     15.89
+2024-12-24     15.94
+2024-12-26     16.00
+2024-12-27     15.90
+2024-12-30     15.97
+2024-12-31     16.12
+[1] "Fetching: BBU"
+           BBU.Close
+2024-12-23    22.490
+2024-12-24    22.490
+2024-12-26    22.773
+2024-12-27    22.450
+2024-12-30    22.070
+2024-12-31    23.420
+[1] "Fetching: BBUC"
+           BBUC.Close
+2024-12-23      23.51
+2024-12-24      23.89
+2024-12-26      24.40
+2024-12-27      23.48
+2024-12-30      23.19
+2024-12-31      24.26
+[1] "Fetching: BBVA"
+           BBVA.Close
+2024-12-23       9.71
+2024-12-24       9.73
+2024-12-26       9.77
+2024-12-27       9.69
+2024-12-30       9.76
+2024-12-31       9.72
+[1] "Fetching: BBW"
+           BBW.Close
+2024-12-23     43.92
+2024-12-24     45.92
+2024-12-26     47.94
+2024-12-27     46.67
+2024-12-30     46.70
+2024-12-31     46.04
+[1] "Fetching: BBWI"
+           BBWI.Close
+2024-12-23      38.99
+2024-12-24      39.09
+2024-12-26      38.20
+2024-12-27      38.18
+2024-12-30      38.88
+2024-12-31      38.77
+[1] "Fetching: BBY"
+           BBY.Close
+2024-12-23     85.32
+2024-12-24     86.85
+2024-12-26     89.37
+2024-12-27     88.03
+2024-12-30     85.85
+2024-12-31     85.80
+[1] "Fetching: BC"
+           BC.Close
+2024-12-23    65.85
+2024-12-24    65.99
+2024-12-26    65.74
+2024-12-27    64.70
+2024-12-30    64.50
+2024-12-31    64.68</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BC^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BC^A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BC^B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BC^B"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BC^C?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BC^C"
+[1] "Fetching: BCAT"
+           BCAT.Close
+2024-12-23      15.24
+2024-12-24      15.65
+2024-12-26      15.54
+2024-12-27      15.34
+2024-12-30      15.10
+2024-12-31      15.15
+[1] "Fetching: BCC"
+           BCC.Close
+2024-12-23    122.24
+2024-12-24    123.19
+2024-12-26    122.93
+2024-12-27    120.63
+2024-12-30    118.79
+2024-12-31    118.86
+[1] "Fetching: BCE"
+           BCE.Close
+2024-12-23     22.84
+2024-12-24     22.90
+2024-12-26     22.87
+2024-12-27     22.66
+2024-12-30     22.53
+2024-12-31     23.18
+[1] "Fetching: BCH"
+           BCH.Close
+2024-12-23     22.56
+2024-12-24     22.78
+2024-12-26     22.82
+2024-12-27     22.75
+2024-12-30     22.59
+2024-12-31     22.68
+[1] "Fetching: BCO"
+           BCO.Close
+2024-12-23     90.28
+2024-12-24     91.01
+2024-12-26     92.20
+2024-12-27     91.70
+2024-12-30     91.92
+2024-12-31     92.77
+[1] "Fetching: BCS"
+           BCS.Close
+2024-12-23     13.19
+2024-12-24     13.45
+2024-12-26     13.43
+2024-12-27     13.28
+2024-12-30     13.29
+2024-12-31     13.29
+[1] "Fetching: BCSF"
+           BCSF.Close
+2024-12-23      17.31
+2024-12-24      17.60
+2024-12-26      17.71
+2024-12-27      17.70
+2024-12-30      17.85
+2024-12-31      17.52
+[1] "Fetching: BCX"
+           BCX.Close
+2024-12-23      8.62
+2024-12-24      8.67
+2024-12-26      8.65
+2024-12-27      8.58
+2024-12-30      8.50
+2024-12-31      8.54
+[1] "Fetching: BDC"
+           BDC.Close
+2024-12-23    113.49
+2024-12-24    114.50
+2024-12-26    115.38
+2024-12-27    113.47
+2024-12-30    112.15
+2024-12-31    112.61
+[1] "Fetching: BDJ"
+           BDJ.Close
+2024-12-23      8.31
+2024-12-24      8.40
+2024-12-26      8.47
+2024-12-27      8.38
+2024-12-30      8.31
+2024-12-31      8.28
+[1] "Fetching: BDN"
+           BDN.Close
+2024-12-23      5.41
+2024-12-24      5.62
+2024-12-26      5.61
+2024-12-27      5.51
+2024-12-30      5.49
+2024-12-31      5.60
+[1] "Fetching: BDX"
+           BDX.Close
+2024-12-23    226.44
+2024-12-24    226.95
+2024-12-26    228.12
+2024-12-27    228.49
+2024-12-30    226.51
+2024-12-31    226.87</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BDXB?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BDXB"
+[1] "Fetching: BE"
+           BE.Close
+2024-12-23    24.20
+2024-12-24    24.33
+2024-12-26    24.33
+2024-12-27    22.90
+2024-12-30    22.51
+2024-12-31    22.21
+[1] "Fetching: BEDU"
+           BEDU.Close
+2024-12-23       1.43
+2024-12-24       1.55
+2024-12-26       1.74
+2024-12-27       1.76
+2024-12-30       1.71
+2024-12-31       1.72
+[1] "Fetching: BEKE"
+           BEKE.Close
+2024-12-23      18.41
+2024-12-24      18.48
+2024-12-26      18.52
+2024-12-27      18.49
+2024-12-30      18.43
+2024-12-31      18.42
+[1] "Fetching: BEN"
+           BEN.Close
+2024-12-23     20.46
+2024-12-24     20.88
+2024-12-26     20.96
+2024-12-27     20.66
+2024-12-30     20.11
+2024-12-31     20.29
+[1] "Fetching: BEP"
+           BEP.Close
+2024-12-23     23.09
+2024-12-24     23.34
+2024-12-26     23.12
+2024-12-27     23.06
+2024-12-30     22.94
+2024-12-31     22.79</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BEP^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BEP^A"
+[1] "Fetching: BEPC"
+           BEPC.Close
+2024-12-23      28.48
+2024-12-24      28.66
+2024-12-26      28.39
+2024-12-27      28.19
+2024-12-30      28.07
+2024-12-31      27.66
+[1] "Fetching: BEPH"
+           BEPH.Close
+2024-12-23      15.94
+2024-12-24      15.85
+2024-12-26      16.06
+2024-12-27      15.85
+2024-12-30      15.87
+2024-12-31      15.78
+[1] "Fetching: BEPI"
+           BEPI.Close
+2024-12-23      16.60
+2024-12-24      16.43
+2024-12-26      16.45
+2024-12-27      16.33
+2024-12-30      16.32
+2024-12-31      16.66
+[1] "Fetching: BERY"
+           BERY.Close
+2024-12-23      64.73
+2024-12-24      65.16
+2024-12-26      65.07
+2024-12-27      65.02
+2024-12-30      64.20
+2024-12-31      64.67</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: BEST contains missing values. Some functions will not work if objects
+contain missing values in the middle of the series. Consider using na.omit(),
+na.approx(), na.fill(), etc to remove or replace them.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Fetching: BEST"
+           BEST.Close
+2024-12-23     2.6400
+2024-12-24     2.6400
+2024-12-26     2.6500
+2024-12-27     2.6574
+2024-12-30     2.6501
+2024-12-31     2.6500</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in to.period(x, "weeks", name = name, ...): missing values removed from
+data</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BF/A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BF/A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BF/B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BF/B"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BFAC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BFAC"
+[1] "Fetching: BFAM"
+           BFAM.Close
+2024-12-23     109.08
+2024-12-24     109.70
+2024-12-26     110.83
+2024-12-27     110.53
+2024-12-30     110.63
+2024-12-31     110.85
+[1] "Fetching: BFH"
+           BFH.Close
+2024-12-23     62.29
+2024-12-24     62.95
+2024-12-26     63.32
+2024-12-27     61.93
+2024-12-30     61.40
+2024-12-31     61.06
+[1] "Fetching: BFK"
+           BFK.Close
+2024-12-23      9.82
+2024-12-24      9.82
+2024-12-26      9.83
+2024-12-27      9.79
+2024-12-30      9.83
+2024-12-31      9.86
+[1] "Fetching: BFLY"
+           BFLY.Close
+2024-12-23       3.02
+2024-12-24       3.11
+2024-12-26       3.40
+2024-12-27       3.46
+2024-12-30       3.23
+2024-12-31       3.12
+[1] "Fetching: BFS"
+           BFS.Close
+2024-12-23     38.56
+2024-12-24     38.75
+2024-12-26     38.92
+2024-12-27     38.35
+2024-12-30     38.65
+2024-12-31     38.80</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BFS^D?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BFS^D"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BFS^E?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BFS^E"
+[1] "Fetching: BFZ"
+           BFZ.Close
+2024-12-23     11.25
+2024-12-24     11.27
+2024-12-26     11.26
+2024-12-27     11.17
+2024-12-30     11.19
+2024-12-31     11.20
+[1] "Fetching: BG"
+           BG.Close
+2024-12-23    79.05
+2024-12-24    79.10
+2024-12-26    78.06
+2024-12-27    78.07
+2024-12-30    76.89
+2024-12-31    77.76
+[1] "Fetching: BGB"
+           BGB.Close
+2024-12-23     12.32
+2024-12-24     12.34
+2024-12-26     12.40
+2024-12-27     12.23
+2024-12-30     12.20
+2024-12-31     12.23
+[1] "Fetching: BGH"
+           BGH.Close
+2024-12-23     15.53
+2024-12-24     15.50
+2024-12-26     15.49
+2024-12-27     15.36
+2024-12-30     15.41
+2024-12-31     15.44
+[1] "Fetching: BGR"
+           BGR.Close
+2024-12-23     12.68
+2024-12-24     12.65
+2024-12-26     12.66
+2024-12-27     12.56
+2024-12-30     12.51
+2024-12-31     12.61
+[1] "Fetching: BGS"
+           BGS.Close
+2024-12-23      7.13
+2024-12-24      7.10
+2024-12-26      7.14
+2024-12-27      7.09
+2024-12-30      6.95
+2024-12-31      6.89
+[1] "Fetching: BGSF"
+           BGSF.Close
+2024-12-23       5.79
+2024-12-24       6.00
+2024-12-26       6.17
+2024-12-27       6.14
+2024-12-30       5.59
+2024-12-31       5.24
+[1] "Fetching: BGT"
+           BGT.Close
+2024-12-23     12.90
+2024-12-24     13.01
+2024-12-26     13.03
+2024-12-27     12.96
+2024-12-30     12.91
+2024-12-31     12.86
+[1] "Fetching: BGX"
+           BGX.Close
+2024-12-23     12.76
+2024-12-24     12.74
+2024-12-26     12.77
+2024-12-27     12.68
+2024-12-30     12.80
+2024-12-31     12.44
+[1] "Fetching: BGY"
+           BGY.Close
+2024-12-23      5.37
+2024-12-24      5.42
+2024-12-26      5.39
+2024-12-27      5.34
+2024-12-30      5.30
+2024-12-31      5.31
+[1] "Fetching: BH"
+           BH.Close
+2024-12-23   253.59
+2024-12-24   264.55
+2024-12-26   262.92
+2024-12-27   257.20
+2024-12-30   256.00
+2024-12-31   254.29
+[1] "Fetching: BHC"
+           BHC.Close
+2024-12-23      7.48
+2024-12-24      7.53
+2024-12-26      7.61
+2024-12-27      7.65
+2024-12-30      7.73
+2024-12-31      8.06
+[1] "Fetching: BHE"
+           BHE.Close
+2024-12-23     46.34
+2024-12-24     46.85
+2024-12-26     47.18
+2024-12-27     46.06
+2024-12-30     45.66
+2024-12-31     45.40</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BHG?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BHG"
+[1] "Fetching: BHIL"
+           BHIL.Close
+2024-12-23       2.37
+2024-12-24       2.50
+2024-12-26       2.40
+2024-12-27       2.28
+2024-12-30       2.02
+2024-12-31       1.97
+[1] "Fetching: BHK"
+           BHK.Close
+2024-12-23     10.58
+2024-12-24     10.59
+2024-12-26     10.58
+2024-12-27     10.46
+2024-12-30     10.39
+2024-12-31     10.46
+[1] "Fetching: BHLB"
+           BHLB.Close
+2024-12-23      28.60
+2024-12-24      28.66
+2024-12-26      28.66
+2024-12-27      28.30
+2024-12-30      28.23
+2024-12-31      28.43
+[1] "Fetching: BHP"
+           BHP.Close
+2024-12-23     49.41
+2024-12-24     49.42
+2024-12-26     49.35
+2024-12-27     49.21
+2024-12-30     48.78
+2024-12-31     48.83
+[1] "Fetching: BHR"
+           BHR.Close
+2024-12-23      3.24
+2024-12-24      3.26
+2024-12-26      3.29
+2024-12-27      3.20
+2024-12-30      3.17
+2024-12-31      3.00</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BHR^B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BHR^B"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BHR^D?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BHR^D"
+[1] "Fetching: BHV"
+           BHV.Close
+2024-12-23     11.20
+2024-12-24     11.19
+2024-12-26     11.20
+2024-12-27     11.20
+2024-12-30     11.15
+2024-12-31     10.99
+[1] "Fetching: BHVN"
+           BHVN.Close
+2024-12-23      36.15
+2024-12-24      35.75
+2024-12-26      36.42
+2024-12-27      36.66
+2024-12-30      35.78
+2024-12-31      37.35</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BIG?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BIG"
+[1] "Fetching: BIGZ"
+           BIGZ.Close
+2024-12-23       7.53
+2024-12-24       7.64
+2024-12-26       7.60
+2024-12-27       7.50
+2024-12-30       7.45
+2024-12-31       7.44
+[1] "Fetching: BILL"
+           BILL.Close
+2024-12-23      89.45
+2024-12-24      87.04
+2024-12-26      88.97
+2024-12-27      86.94
+2024-12-30      85.51
+2024-12-31      84.71
+[1] "Fetching: BIO"
+           BIO.Close
+2024-12-23    328.36
+2024-12-24    330.53
+2024-12-26    331.39
+2024-12-27    330.87
+2024-12-30    326.34
+2024-12-31    328.51</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BIO/B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BIO/B"
+[1] "Fetching: BIP"
+           BIP.Close
+2024-12-23     32.03
+2024-12-24     32.00
+2024-12-26     31.97
+2024-12-27     31.64
+2024-12-30     31.71
+2024-12-31     31.79</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BIP^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BIP^A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BIP^B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BIP^B"
+[1] "Fetching: BIPC"
+           BIPC.Close
+2024-12-23      38.36
+2024-12-24      38.52
+2024-12-26      39.06
+2024-12-27      38.20
+2024-12-30      39.82
+2024-12-31      40.01
+[1] "Fetching: BIPH"
+           BIPH.Close
+2024-12-23      17.05
+2024-12-24      16.76
+2024-12-26      16.67
+2024-12-27      16.82
+2024-12-30      16.97
+2024-12-31      16.66
+[1] "Fetching: BIPI"
+           BIPI.Close
+2024-12-23      17.38
+2024-12-24      16.79
+2024-12-26      16.74
+2024-12-27      16.79
+2024-12-30      16.90
+2024-12-31      16.84
+[1] "Fetching: BIT"
+           BIT.Close
+2024-12-23     14.33
+2024-12-24     14.37
+2024-12-26     14.34
+2024-12-27     14.26
+2024-12-30     14.25
+2024-12-31     14.60
+[1] "Fetching: BJ"
+           BJ.Close
+2024-12-23    93.10
+2024-12-24    93.79
+2024-12-26    94.44
+2024-12-27    92.79
+2024-12-30    89.60
+2024-12-31    89.35
+[1] "Fetching: BK"
+           BK.Close
+2024-12-23    77.57
+2024-12-24    78.05
+2024-12-26    78.35
+2024-12-27    77.57
+2024-12-30    77.11
+2024-12-31    76.83
+[1] "Fetching: BKD"
+           BKD.Close
+2024-12-23      5.11
+2024-12-24      5.07
+2024-12-26      5.13
+2024-12-27      5.07
+2024-12-30      4.94
+2024-12-31      5.03
+[1] "Fetching: BKDT"
+           BKDT.Close
+2024-12-23      69.04
+2024-12-24      69.04
+2024-12-26      69.04
+2024-12-27      69.04
+2024-12-30      69.04
+2024-12-31      69.04
+[1] "Fetching: BKE"
+           BKE.Close
+2024-12-23     51.01
+2024-12-24     51.26
+2024-12-26     51.73
+2024-12-27     51.53
+2024-12-30     51.24
+2024-12-31     50.81
+[1] "Fetching: BKH"
+           BKH.Close
+2024-12-23     58.44
+2024-12-24     58.98
+2024-12-26     58.98
+2024-12-27     58.55
+2024-12-30     58.39
+2024-12-31     58.52</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BKI?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BKI"
+[1] "Fetching: BKKT"
+           BKKT.Close
+2024-12-23      27.79
+2024-12-24      29.40
+2024-12-26      30.41
+2024-12-27      27.49
+2024-12-30      25.91
+2024-12-31      24.77
+[1] "Fetching: BKN"
+           BKN.Close
+2024-12-23     11.17
+2024-12-24     11.19
+2024-12-26     11.17
+2024-12-27     11.07
+2024-12-30     11.09
+2024-12-31     11.15
+[1] "Fetching: BKSY"
+           BKSY.Close
+2024-12-23      10.37
+2024-12-24      10.98
+2024-12-26      11.64
+2024-12-27      11.26
+2024-12-30      11.04
+2024-12-31      10.79
+[1] "Fetching: BKT"
+           BKT.Close
+2024-12-23     11.49
+2024-12-24     11.49
+2024-12-26     11.46
+2024-12-27     11.47
+2024-12-30     11.50
+2024-12-31     11.52
+[1] "Fetching: BKU"
+           BKU.Close
+2024-12-23     38.38
+2024-12-24     38.61
+2024-12-26     38.80
+2024-12-27     38.41
+2024-12-30     38.29
+2024-12-31     38.17
+[1] "Fetching: BLCO"
+           BLCO.Close
+2024-12-23      17.83
+2024-12-24      17.86
+2024-12-26      18.14
+2024-12-27      17.97
+2024-12-30      17.79
+2024-12-31      18.06
+[1] "Fetching: BLD"
+           BLD.Close
+2024-12-23    311.84
+2024-12-24    312.44
+2024-12-26    313.80
+2024-12-27    310.67
+2024-12-30    310.91
+2024-12-31    311.34
+[1] "Fetching: BLDR"
+           BLDR.Close
+2024-12-23     149.03
+2024-12-24     148.82
+2024-12-26     148.18
+2024-12-27     145.08
+2024-12-30     143.37
+2024-12-31     142.93
+[1] "Fetching: BLE"
+           BLE.Close
+2024-12-23     10.42
+2024-12-24     10.44
+2024-12-26     10.43
+2024-12-27     10.38
+2024-12-30     10.42
+2024-12-31     10.51
+[1] "Fetching: BLK"
+           BLK.Close
+2024-12-23   1039.70
+2024-12-24   1054.83
+2024-12-26   1054.28
+2024-12-27   1044.18
+2024-12-30   1027.43
+2024-12-31   1025.11
+[1] "Fetching: BLND"
+           BLND.Close
+2024-12-23       4.41
+2024-12-24       4.50
+2024-12-26       4.40
+2024-12-27       4.29
+2024-12-30       4.30
+2024-12-31       4.21
+[1] "Fetching: BLW"
+           BLW.Close
+2024-12-23     14.12
+2024-12-24     14.15
+2024-12-26     14.17
+2024-12-27     14.08
+2024-12-30     14.07
+2024-12-31     14.13
+[1] "Fetching: BLX"
+           BLX.Close
+2024-12-23     35.46
+2024-12-24     35.79
+2024-12-26     35.86
+2024-12-27     35.38
+2024-12-30     35.25
+2024-12-31     35.57
+[1] "Fetching: BMA"
+           BMA.Close
+2024-12-23     97.74
+2024-12-24    100.04
+2024-12-26    101.42
+2024-12-27    100.23
+2024-12-30     97.32
+2024-12-31     96.76</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BMAC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BMAC"
+[1] "Fetching: BME"
+           BME.Close
+2024-12-23     37.77
+2024-12-24     38.15
+2024-12-26     38.47
+2024-12-27     38.32
+2024-12-30     37.77
+2024-12-31     37.93
+[1] "Fetching: BMEZ"
+           BMEZ.Close
+2024-12-23      14.72
+2024-12-24      14.89
+2024-12-26      14.81
+2024-12-27      14.66
+2024-12-30      14.44
+2024-12-31      14.40
+[1] "Fetching: BMI"
+           BMI.Close
+2024-12-23    216.87
+2024-12-24    220.00
+2024-12-26    219.95
+2024-12-27    215.45
+2024-12-30    214.25
+2024-12-31    212.12</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BML^G?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BML^G"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BML^H?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BML^H"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BML^J?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BML^J"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BML^L?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BML^L"
+[1] "Fetching: BMN"
+           BMN.Close
+2024-12-23    25.110
+2024-12-24    25.325
+2024-12-26    25.626
+2024-12-27    25.660
+2024-12-30    25.460
+2024-12-31    25.590
+[1] "Fetching: BMO"
+           BMO.Close
+2024-12-23     96.98
+2024-12-24     96.84
+2024-12-26     97.01
+2024-12-27     97.05
+2024-12-30     96.88
+2024-12-31     97.05
+[1] "Fetching: BMY"
+           BMY.Close
+2024-12-23     57.58
+2024-12-24     57.76
+2024-12-26     58.00
+2024-12-27     57.68
+2024-12-30     56.06
+2024-12-31     56.56
+[1] "Fetching: BN"
+           BN.Close
+2024-12-23    57.06
+2024-12-24    57.49
+2024-12-26    57.86
+2024-12-27    57.19
+2024-12-30    57.35
+2024-12-31    57.45
+[1] "Fetching: BNED"
+           BNED.Close
+2024-12-23       9.92
+2024-12-24      10.06
+2024-12-26      10.41
+2024-12-27      10.29
+2024-12-30       9.88
+2024-12-31      10.04
+[1] "Fetching: BNH"
+           BNH.Close
+2024-12-23     17.11
+2024-12-24     16.84
+2024-12-26     16.83
+2024-12-27     16.75
+2024-12-30     16.95
+2024-12-31     16.73
+[1] "Fetching: BNJ"
+           BNJ.Close
+2024-12-23    16.195
+2024-12-24    16.090
+2024-12-26    16.030
+2024-12-27    16.020
+2024-12-30    15.980
+2024-12-31    15.860
+[1] "Fetching: BNL"
+           BNL.Close
+2024-12-23     16.02
+2024-12-24     16.13
+2024-12-26     16.16
+2024-12-27     15.94
+2024-12-30     15.93
+2024-12-31     15.86</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BNRE?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BNRE"
+[1] "Fetching: BNS"
+           BNS.Close
+2024-12-23     53.64
+2024-12-24     53.60
+2024-12-26     53.73
+2024-12-27     53.76
+2024-12-30     53.90
+2024-12-31     53.72
+[1] "Fetching: BNY"
+           BNY.Close
+2024-12-23     10.13
+2024-12-24     10.21
+2024-12-26     10.27
+2024-12-27     10.20
+2024-12-30     10.18
+2024-12-31     10.19</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BOAC?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BOAC"
+[1] "Fetching: BOC"
+           BOC.Close
+2024-12-23     14.04
+2024-12-24     14.27
+2024-12-26     14.45
+2024-12-27     14.20
+2024-12-30     14.26
+2024-12-31     14.18</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BODY?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BODY"
+[1] "Fetching: BOE"
+           BOE.Close
+2024-12-23     10.92
+2024-12-24     11.03
+2024-12-26     11.05
+2024-12-27     10.88
+2024-12-30     10.82
+2024-12-31     10.77
+[1] "Fetching: BOH"
+           BOH.Close
+2024-12-23     69.75
+2024-12-24     70.53
+2024-12-26     71.65
+2024-12-27     70.39
+2024-12-30     71.44
+2024-12-31     71.24</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BOH^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BOH^A"
+[1] "Fetching: BOOT"
+           BOOT.Close
+2024-12-23     147.98
+2024-12-24     148.33
+2024-12-26     155.76
+2024-12-27     156.67
+2024-12-30     153.31
+2024-12-31     151.82
+[1] "Fetching: BORR"
+           BORR.Close
+2024-12-23       3.72
+2024-12-24       3.74
+2024-12-26       3.74
+2024-12-27       3.60
+2024-12-30       3.72
+2024-12-31       3.90</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BOWL?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BOWL"
+[1] "Fetching: BOX"
+           BOX.Close
+2024-12-23     31.97
+2024-12-24     32.02
+2024-12-26     32.16
+2024-12-27     32.02
+2024-12-30     31.83
+2024-12-31     31.60
+[1] "Fetching: BP"
+           BP.Close
+2024-12-23    28.75
+2024-12-24    28.79
+2024-12-26    28.85
+2024-12-27    28.96
+2024-12-30    29.09
+2024-12-31    29.56
+[1] "Fetching: BPT"
+           BPT.Close
+2024-12-23      0.68
+2024-12-24      0.66
+2024-12-26      0.64
+2024-12-27      0.60
+2024-12-30      0.56
+2024-12-31      0.54
+[1] "Fetching: BQ"
+           BQ.Close
+2024-12-23     2.98
+2024-12-24     3.00
+2024-12-26     3.65
+2024-12-27     3.40
+2024-12-30     3.81
+2024-12-31     3.60
+[1] "Fetching: BR"
+           BR.Close
+2024-12-23   224.49
+2024-12-24   227.34
+2024-12-26   227.74
+2024-12-27   226.37
+2024-12-30   225.50
+2024-12-31   226.09
+[1] "Fetching: BRBR"
+           BRBR.Close
+2024-12-23      76.14
+2024-12-24      76.66
+2024-12-26      76.78
+2024-12-27      76.04
+2024-12-30      75.64
+2024-12-31      75.34
+[1] "Fetching: BRC"
+           BRC.Close
+2024-12-23     74.83
+2024-12-24     75.37
+2024-12-26     75.64
+2024-12-27     73.90
+2024-12-30     73.21
+2024-12-31     73.85
+[1] "Fetching: BRCC"
+           BRCC.Close
+2024-12-23       2.89
+2024-12-24       2.93
+2024-12-26       3.01
+2024-12-27       3.05
+2024-12-30       3.10
+2024-12-31       3.17</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BRD?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BRD"
+[1] "Fetching: BRDG"
+           BRDG.Close
+2024-12-23       8.46
+2024-12-24       8.66
+2024-12-26       8.47
+2024-12-27       8.38
+2024-12-30       8.37
+2024-12-31       8.40</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BRDS?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BRDS"
+[1] "Fetching: BRFS"
+           BRFS.Close
+2024-12-23       4.23
+2024-12-24       4.27
+2024-12-26       4.13
+2024-12-27       4.05
+2024-12-30       4.11
+2024-12-31       4.07</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BRK/A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BRK/A"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BRK/B?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BRK/B"</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BRMK?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BRMK"
+[1] "Fetching: BRO"
+           BRO.Close
+2024-12-23    102.80
+2024-12-24    103.85
+2024-12-26    103.74
+2024-12-27    102.89
+2024-12-30    101.99
+2024-12-31    102.02
+[1] "Fetching: BROS"
+           BROS.Close
+2024-12-23      52.96
+2024-12-24      54.81
+2024-12-26      55.82
+2024-12-27      53.36
+2024-12-30      52.55
+2024-12-31      52.38
+[1] "Fetching: BRSP"
+           BRSP.Close
+2024-12-23       5.93
+2024-12-24       5.97
+2024-12-26       5.95
+2024-12-27       5.83
+2024-12-30       5.74
+2024-12-31       5.64
+[1] "Fetching: BRT"
+           BRT.Close
+2024-12-23     17.48
+2024-12-24     17.63
+2024-12-26     17.85
+2024-12-27     17.75
+2024-12-30     17.81
+2024-12-31     18.03
+[1] "Fetching: BRW"
+           BRW.Close
+2024-12-23      7.73
+2024-12-24      7.72
+2024-12-26      7.56
+2024-12-27      7.54
+2024-12-30      7.62
+2024-12-31      7.62
+[1] "Fetching: BRX"
+           BRX.Close
+2024-12-23     27.53
+2024-12-24     27.72
+2024-12-26     27.75
+2024-12-27     27.57
+2024-12-30     27.46
+2024-12-31     27.84
+[1] "Fetching: BSAC"
+           BSAC.Close
+2024-12-23      18.72
+2024-12-24      18.90
+2024-12-26      18.96
+2024-12-27      19.00
+2024-12-30      18.78
+2024-12-31      18.86</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BSAQ?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BSAQ"
+[1] "Fetching: BSBR"
+           BSBR.Close
+2024-12-23       3.84
+2024-12-24       3.88
+2024-12-26       3.88
+2024-12-27       3.87
+2024-12-30       3.89
+2024-12-31       3.91</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BSIG?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BSIG"
+[1] "Fetching: BSL"
+           BSL.Close
+2024-12-23     14.54
+2024-12-24     14.55
+2024-12-26     14.60
+2024-12-27     14.46
+2024-12-30     14.51
+2024-12-31     14.34
+[1] "Fetching: BSM"
+           BSM.Close
+2024-12-23     14.11
+2024-12-24     14.22
+2024-12-26     14.15
+2024-12-27     14.15
+2024-12-30     14.35
+2024-12-31     14.60</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BSMX?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BSMX"
+[1] "Fetching: BST"
+           BST.Close
+2024-12-23     36.79
+2024-12-24     37.54
+2024-12-26     37.51
+2024-12-27     37.02
+2024-12-30     36.65
+2024-12-31     36.56
+[1] "Fetching: BSTZ"
+           BSTZ.Close
+2024-12-23      21.69
+2024-12-24      22.13
+2024-12-26      21.75
+2024-12-27      21.28
+2024-12-30      20.98
+2024-12-31      20.71
+[1] "Fetching: BSX"
+           BSX.Close
+2024-12-23     89.86
+2024-12-24     91.07
+2024-12-26     91.45
+2024-12-27     90.66
+2024-12-30     89.68
+2024-12-31     89.32</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BSX^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BSX^A"
+[1] "Fetching: BTA"
+           BTA.Close
+2024-12-23      9.91
+2024-12-24      9.86
+2024-12-26      9.88
+2024-12-27      9.83
+2024-12-30      9.75
+2024-12-31      9.76
+[1] "Fetching: BTCM"
+           BTCM.Close
+2024-12-23       2.72
+2024-12-24       2.89
+2024-12-26       2.92
+2024-12-27       2.79
+2024-12-30       2.64
+2024-12-31       2.52
+[1] "Fetching: BTE"
+           BTE.Close
+2024-12-23      2.38
+2024-12-24      2.41
+2024-12-26      2.40
+2024-12-27      2.42
+2024-12-30      2.46
+2024-12-31      2.58
+[1] "Fetching: BTI"
+           BTI.Close
+2024-12-23     36.22
+2024-12-24     36.26
+2024-12-26     36.43
+2024-12-27     36.31
+2024-12-30     36.06
+2024-12-31     36.32
+[1] "Fetching: BTO"
+           BTO.Close
+2024-12-23     35.02
+2024-12-24     35.30
+2024-12-26     35.54
+2024-12-27     35.57
+2024-12-30     34.88
+2024-12-31     35.69
+[1] "Fetching: BTT"
+           BTT.Close
+2024-12-23     20.38
+2024-12-24     20.41
+2024-12-26     20.46
+2024-12-27     20.43
+2024-12-30     20.45
+2024-12-31     20.59
+[1] "Fetching: BTU"
+           BTU.Close
+2024-12-23     20.30
+2024-12-24     20.05
+2024-12-26     19.81
+2024-12-27     19.96
+2024-12-30     20.78
+2024-12-31     20.94
+[1] "Fetching: BTZ"
+           BTZ.Close
+2024-12-23     10.46
+2024-12-24     10.55
+2024-12-26     10.51
+2024-12-27     10.42
+2024-12-30     10.42
+2024-12-31     10.46
+[1] "Fetching: BUD"
+           BUD.Close
+2024-12-23     50.54
+2024-12-24     50.39
+2024-12-26     50.37
+2024-12-27     50.37
+2024-12-30     49.78
+2024-12-31     50.07
+[1] "Fetching: BUI"
+           BUI.Close
+2024-12-23     22.89
+2024-12-24     23.32
+2024-12-26     23.16
+2024-12-27     23.12
+2024-12-30     23.01
+2024-12-31     23.43
+[1] "Fetching: BUR"
+           BUR.Close
+2024-12-23     12.74
+2024-12-24     12.79
+2024-12-26     12.90
+2024-12-27     12.72
+2024-12-30     12.71
+2024-12-31     12.75
+[1] "Fetching: BURL"
+           BURL.Close
+2024-12-23     283.70
+2024-12-24     289.04
+2024-12-26     295.05
+2024-12-27     292.00
+2024-12-30     284.80
+2024-12-31     285.06
+[1] "Fetching: BV"
+           BV.Close
+2024-12-23    15.91
+2024-12-24    16.11
+2024-12-26    16.40
+2024-12-27    16.04
+2024-12-30    16.05
+2024-12-31    15.99</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BVH?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BVH"
+[1] "Fetching: BVN"
+           BVN.Close
+2024-12-23     12.38
+2024-12-24     12.42
+2024-12-26     12.30
+2024-12-27     12.26
+2024-12-30     11.93
+2024-12-31     11.52
+[1] "Fetching: BW"
+           BW.Close
+2024-12-23     1.59
+2024-12-24     1.62
+2024-12-26     1.67
+2024-12-27     1.70
+2024-12-30     1.62
+2024-12-31     1.64</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Failed to open
+'https://query2.finance.yahoo.com/v8/finance/chart/BW^A?period1=1734912000&amp;period2=1742688000&amp;interval=1d':
+The requested URL returned error: 404</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Error fetching data for: BW^A"
+[1] "Fetching: BWA"
+           BWA.Close
+2024-12-23     32.00
+2024-12-24     32.18
+2024-12-26     32.26
+2024-12-27     32.19
+2024-12-30     31.64
+2024-12-31     31.79
+[1] "Fetching: BWG"
+           BWG.Close
+2024-12-23      8.15
+2024-12-24      8.14
+2024-12-26      8.08
+2024-12-27      7.93
+2024-12-30      7.95
+2024-12-31      8.00
+[1] "Fetching: BWNB"
+           BWNB.Close
+2024-12-23      19.70
+2024-12-24      19.60
+2024-12-26      19.57
+2024-12-27      19.34
+2024-12-30      19.25
+2024-12-31      19.90
+[1] "Fetching: BWSN"
+           BWSN.Close
+2024-12-23      22.80
+2024-12-24      22.94
+2024-12-26      22.70
+2024-12-27      22.40
+2024-12-30      22.15
+2024-12-31      22.10
+[1] "Fetching: BWXT"
+           BWXT.Close
+2024-12-23     111.88
+2024-12-24     112.87
+2024-12-26     113.00
+2024-12-27     112.52
+2024-12-30     112.16
+2024-12-31     111.39
+[1] "Fetching: BX"
+           BX.Close
+2024-12-23   172.19
+2024-12-24   175.69
+2024-12-26   176.46
+2024-12-27   174.01
+2024-12-30   172.05
+2024-12-31   172.42
+[1] "Fetching: BXC"
+           BXC.Close
+2024-12-23    105.71
+2024-12-24    107.26
+2024-12-26    106.57
+2024-12-27    103.72
+2024-12-30    102.45
+2024-12-31    102.16
+[1] "Fetching: BXMT"
+           BXMT.Close
+2024-12-23      18.02
+2024-12-24      18.29
+2024-12-26      18.12
+2024-12-27      17.91
+2024-12-30      17.71
+2024-12-31      17.41
+[1] "Fetching: BXMX"
+           BXMX.Close
+2024-12-23      13.80
+2024-12-24      14.01
+2024-12-26      14.05
+2024-12-27      13.96
+2024-12-30      13.98
+2024-12-31      13.99
+[1] "Fetching: BXP"
+           BXP.Close
+2024-12-23     75.61
+2024-12-24     76.13
+2024-12-26     76.23
+2024-12-27     74.61
+2024-12-30     74.17
+2024-12-31     74.36
+[1] "Fetching: BXSL"
+           BXSL.Close
+2024-12-23      32.49
+2024-12-24      33.01
+2024-12-26      33.20
+2024-12-27      33.27
+2024-12-30      33.07
+2024-12-31      32.31</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb322"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb322-1"><a href="#cb322-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Debug: Check data before sorting</span></span>
+<span id="cb322-2"><a href="#cb322-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">head</span>(weekly_changes))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>       Symbol Weekly_Change
+A           A         -0.35
+AA         AA          1.25
+AAC       AAC            NA
+AAIC     AAIC            NA
+AAIC^B AAIC^B            NA
+AAIC^C AAIC^C            NA</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb324"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb324-1"><a href="#cb324-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove only rows with NA in Weekly_Change</span></span>
+<span id="cb324-2"><a href="#cb324-2" aria-hidden="true" tabindex="-1"></a>weekly_changes <span class="ot">&lt;-</span> weekly_changes <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(Weekly_Change))</span>
+<span id="cb324-3"><a href="#cb324-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb324-4"><a href="#cb324-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert Weekly_Change to numeric</span></span>
+<span id="cb324-5"><a href="#cb324-5" aria-hidden="true" tabindex="-1"></a>weekly_changes<span class="sc">$</span>Weekly_Change <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(weekly_changes<span class="sc">$</span>Weekly_Change)</span>
+<span id="cb324-6"><a href="#cb324-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb324-7"><a href="#cb324-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort stocks by highest weekly gainers</span></span>
+<span id="cb324-8"><a href="#cb324-8" aria-hidden="true" tabindex="-1"></a>weekly_winners <span class="ot">&lt;-</span> weekly_changes <span class="sc">%&gt;%</span> <span class="fu">arrange</span>(<span class="fu">desc</span>(Weekly_Change))</span>
+<span id="cb324-9"><a href="#cb324-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb324-10"><a href="#cb324-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Display Top 20 Winners of the Week</span></span>
+<span id="cb324-11"><a href="#cb324-11" aria-hidden="true" tabindex="-1"></a>top_gainers <span class="ot">&lt;-</span> <span class="fu">head</span>(weekly_winners, <span class="dv">20</span>)</span>
+<span id="cb324-12"><a href="#cb324-12" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="st">"Top 20 Weekly Gainers Across NYSE, NASDAQ, AMEX, and S&amp;P 500:"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "Top 20 Weekly Gainers Across NYSE, NASDAQ, AMEX, and S&amp;P 500:"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb326"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb326-1"><a href="#cb326-1" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(top_gainers)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     Symbol Weekly_Change
+AEVA   AEVA         54.04
+AMPX   AMPX         52.45
+AMRC   AMRC         27.23
+BEDU   BEDU         19.35
+AKA     AKA         15.70
+AGL     AGL         11.85
+ACHR   ACHR         10.38
+BA       BA         10.07
+AU       AU         10.05
+AEO     AEO          9.58
+ARIS   ARIS          9.55
+AR       AR          8.52
+BQ       BQ          8.49
+BRFS   BRFS          8.49
+BALY   BALY          8.18
+BKE     BKE          8.08
+ALLY   ALLY          6.92
+BRDG   BRDG          6.89
+APO     APO          6.77
+BN       BN          6.45</code></pre>
+</div>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
