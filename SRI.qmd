@@ -1,6 +1,9 @@
 ---
 title: "SRI"
-format: html
+format: 
+  html:
+    embed-resources: true
+    self-contained-math: true
 ---
 
 ```{r}

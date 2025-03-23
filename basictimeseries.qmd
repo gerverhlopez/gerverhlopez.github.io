@@ -1,9 +1,13 @@
 ---
 title: "basictimeseries"
 format: html
+draft: true
 ---
 
 ```{r}
+r = getOption("repos")
+r["CRAN"] = "http://cran.us.r-project.org"
+options(repos = r)
 install.packages(c("quantmod", "forecast", "tseries"))
 
 library(quantmod)

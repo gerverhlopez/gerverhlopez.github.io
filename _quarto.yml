@@ -10,7 +10,9 @@ website:
         text: Home
       - about.qmd
       - text: Technical
-        href: sri.qmd
+        menu:
+          - SRI.qmd
+          - basictimeseries.qmd
 
 format:
   html:
