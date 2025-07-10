@@ -1,5 +1,18 @@
-Hello! This is Gerver's blog
+---
+title: My First Closeread
+format: closeread-html
+---
 
-```{r}
-print("Welcome this is Gerver's personal website in construction. Please visit later.")
-```
+Hello World! Please read my Closeread story below.
+
+:::: cr-section
+Closeread enables scrollytelling.
+
+Draw your reading attention with focus effects. @cr-features
+
+::: {#cr-features}
+1.  Highlighting
+2.  Zooming
+3.  Panning
+:::
+::::
