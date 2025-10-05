@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d4be639c637f3db3c684c66cefad7e0c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/intersection-observer-polyfill-1.0.0/intersection-observer.js"></script>
 <script src="site_libs/quarto-contrib/scrollama-3.2.0/scrollama.min.js"></script>
 <script src="site_libs/quarto-contrib/closeread-0.1.0/closeread.js"></script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <meta cr-remove-header-space="false">
 
 
-<link rel="stylesheet" href="_extensions/qmd-lab/closeread/closeread.css">
+<link rel="stylesheet" href="site_libs/quarto-contrib/quarto-project/qmd-lab/closeread/closeread.css">
 </head>
 
 <body class="nav-fixed">
@@ -101,10 +101,17 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About Gerver</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./technical.html"> 
-<span class="menu-text">technical posts</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-technical" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Technical</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-technical">    
+        <li>
+    <a class="dropdown-item" href="./basictimeseries.html">
+ <span class="dropdown-text">basictimeseries</span></a>
   </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -139,32 +146,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hello World! Please read my Closeread story below.</p>
-<div class="cr-section cr-column-screen sidebar-left">
-<div class="narrative-col">
-<div class="trigger">
-<div class="narrative">
-<p>Closeread enables scrollytelling.</p>
-</div>
-</div>
-<div class="trigger new-trigger" data-focus-on="cr-features">
-<div class="narrative">
-<p>Draw your readers attention with:</p>
-</div>
-</div>
-</div>
-<div class="sticky-col">
-<div class="sticky-col-stack">
-<div id="cr-features" class="sticky">
-<ol type="1">
-<li>Highlighting</li>
-<li>Zooming</li>
-<li>Panning</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
+<p>Hello World! Please read my Closeread story below. I will be updating this page soon</p>
 
 
 
@@ -251,6 +233,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -361,6 +345,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

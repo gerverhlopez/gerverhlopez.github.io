@@ -60,6 +60,8 @@ ggplot(top_rsi_stocks, aes(x = reorder(Symbol, RSI), y = RSI, fill = Symbol)) +
 ```
 
 ```{r}
+#| eval: false
+#| include: false
 # Load tickers
 nyse_symbols <- read_csv("nyse_tickers.csv", show_col_types = FALSE)$Ticker
 nasdaq_symbols <- read_csv("nasdaq_tickers.csv", show_col_types = FALSE)$Ticker
@@ -116,10 +118,6 @@ weekly_winners <- weekly_changes %>% arrange(desc(Weekly_Change))
 top_gainers <- head(weekly_winners, 20)
 print("Top 20 Weekly Gainers Across NYSE, NASDAQ, AMEX, and S&P 500:")
 print(top_gainers)
-```
-
-```{r}
-
 ```
 
 ```{r}

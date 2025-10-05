@@ -4,4 +4,3 @@ format: closeread-html
 ---
 
 Hello World! Please read my Closeread story below. I will be updating this page soon
-

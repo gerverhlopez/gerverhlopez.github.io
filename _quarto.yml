@@ -11,7 +11,7 @@ website:
       - about.qmd
       - text: Technical
         menu:
-          - SRI.qmd
+          # - SRI.qmd
           - basictimeseries.qmd
 
 format:
