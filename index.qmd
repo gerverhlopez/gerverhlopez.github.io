@@ -6,14 +6,12 @@ format: closeread-html
 :::::: cr-section
 Hello! I'm Gerver, an interdisciplinary individual exploring the intersections of economics, environment, business and data.
 
+:::: cr-section
 My background blends experiences in manual labor, small businesses development and creation, environmental economics, political economy, and creative technology. I use tools like R, Quarto, and Github Pages to tell stories that make research more transparent and engaging.
 
 It is my hope, that my posts would encourage other students, regardless of academic background, to explore data-driven storytelling.
 
 I'm endlessly curious about how economics systems, social networks, policy, and ecological resiliance shape our world. I am particularly interested in why and how people spend money on environmental causes, what motivates that behavior, and how these decisions related to the value of natural resources and money in macrofinance.
-
-:::: cr-section
-Closeread enables scrollytelling.
 
 ::: {#cr-features}
 Draw your reading attention with: @cr-features
