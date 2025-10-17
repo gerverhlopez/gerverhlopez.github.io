@@ -3,22 +3,20 @@ title: Gerver H. Lopez
 format: closeread-html
 ---
 
-::: {.cr-section}
-
-Hello! I'm **Gerver**, an interdisciplinary individual exploring the intersections of **economics, environment, business, and data**.  
+::: cr-section
+Hello! I'm **Gerver**, an interdisciplinary individual exploring the intersections of **economics, environment, business, and data**.\
 As you read, I’ll reveal a few visuals—starting with a photo. @cr-portrait
 
-My background blends experiences in **manual labor**, **small-business development and creation**, **environmental economics**, **political economy**, and **creative technology**. I use **R**, **Quarto**, and **GitHub Pages** to tell stories that make research more transparent and engaging.  
+My background blends experiences in **manual labor**, **small-business development and creation**, **environmental economics**, **political economy**, and **creative technology**. I use **R**, **Quarto**, and **GitHub Pages** to tell stories that make research more transparent and engaging.\
 Here are quick links and profiles. @cr-links
 
-It is my hope that my posts encourage students—regardless of academic background—to explore **data-driven storytelling**.  
+It is my hope that my posts encourage students—regardless of academic background—to explore **data-driven storytelling**.\
 This line will display a short quote. @cr-quote
 
-I'm endlessly curious about how **economic systems, social networks, policy, and ecological resilience** shape our world, and how **clear, accessible design** can help us understand them.  
+I'm endlessly curious about how **economic systems, social networks, policy, and ecological resilience** shape our world, and how **clear, accessible design** can help us understand them.\
 Below is a compact view of my core interests. @cr-interests
 
 In particular, I’m interested in **why and how people spend money on environmental causes**, what’s in it for them, and how these decisions relate to the **value of natural resources and money in macrofinance**—topics I often explore through small, reproducible examples like the one shown. @cr-chart
-
 :::
 
 ::: {#cr-portrait .cr-headshot}
@@ -26,9 +24,7 @@ In particular, I’m interested in **why and how people spend money on environme
 :::
 
 ::: {#cr-links .cr-links}
-<a href="https://github.com/gerverhlopez"><i class="bi bi-github"></i> GitHub</a>
-<a href="https://scholar.google.com/"><i class="bi bi-mortarboard"></i> Scholar</a>
-<a href="mailto:you@email.com"><i class="bi bi-envelope"></i> Email</a>
+<a href="https://github.com/gerverhlopez"><i class="bi bi-github"></i> GitHub</a> <a href="https://scholar.google.com/"><i class="bi bi-mortarboard"></i> Scholar</a> <a href="mailto:you@email.com"><i class="bi bi-envelope"></i> Email</a>
 :::
 
 ::: {#cr-quote .cr-quote}
@@ -36,14 +32,12 @@ In particular, I’m interested in **why and how people spend money on environme
 :::
 
 ::: {#cr-interests}
-**Current interests**
-- Motivations behind **environmental spending** (altruism, signaling, local benefits)  
-- **Natural resources** valuation and governance  
-- **Macro-finance**: value of money, rates, and climate risk  
-- **Social networks** & policy diffusion  
+**Current interests** - Motivations behind **environmental spending** (altruism, signaling, local benefits)\
+- **Natural resources** valuation and governance\
+- **Macro-finance**: value of money, rates, and climate risk\
+- **Social networks** & policy diffusion\
 - Visual, **accessible** research communication
 :::
-
 
 <div>
 
