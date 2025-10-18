@@ -2,10 +2,10 @@
 title: Gerver H. Lopez
 format: closeread-html
 ---
-
-::: cr-section
 Hello! I'm **Gerver**, an interdisciplinary individual exploring the intersections of **economics, environment, business, and data**.\
 As you read, I’ll reveal a few visuals—starting with a photo. @cr-portrait
+
+::: {.cr-section}
 
 My background blends experiences in **manual labor**, **small-business development and creation**, **environmental economics**, **political economy**, and **creative technology**. I use **R**, **Quarto**, and **GitHub Pages** to tell stories that make research more transparent and engaging.\
 Here are quick links and profiles. @cr-links
@@ -37,7 +37,7 @@ In particular, I’m interested in **why and how people spend money on environme
 - **Macro-finance**: value of money, rates, and climate risk\
 - **Social networks** & policy diffusion\
 - Visual, **accessible** research communication
-:::
+:::{#cr-features}
 
 <div>
 
