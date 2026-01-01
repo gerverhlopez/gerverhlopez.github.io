@@ -1,44 +1,86 @@
 ---
-title: Gerver H. Lopez
-format: closeread-html
+title: "Welcome"
+format:
+  closeread-html:
+    remove-header-space: true
+    cr-section:
+      layout: "overlay-center"
 ---
-Hello! I'm **Gerver**, an interdisciplinary individual exploring the intersections of **economics, environment, business, and data**.\
-As you read, I’ll reveal a few visuals—starting with a photo. @cr-portrait
 
-::: {.cr-section}
-
-My background blends experiences in **manual labor**, **small-business development and creation**, **environmental economics**, **political economy**, and **creative technology**. I use **R**, **Quarto**, and **GitHub Pages** to tell stories that make research more transparent and engaging.\
-Here are quick links and profiles. @cr-links
-
-It is my hope that my posts encourage students—regardless of academic background—to explore **data-driven storytelling**.\
-This line will display a short quote. @cr-quote
-
-I'm endlessly curious about how **economic systems, social networks, policy, and ecological resilience** shape our world, and how **clear, accessible design** can help us understand them.\
-Below is a compact view of my core interests. @cr-interests
-
-In particular, I’m interested in **why and how people spend money on environmental causes**, what’s in it for them, and how these decisions relate to the **value of natural resources and money in macrofinance**—topics I often explore through small, reproducible examples like the one shown. @cr-chart
+:::{.cr-title-slide}
+# **Gerver H. Lopez**
+## Economics \| Environment \| Political Economy
 :::
 
-::: {#cr-portrait .cr-headshot}
-![](img/me.jpg)
+<br><br><br><br>
+
+:::{.cr-section}
+
+:::{focus-on="cr-portrait"}
+As you land here, you'll see my portrait. Hello! I'm **Gerver**, an interdisciplinary individual exploring the intersections of **economics, environment, and political economy**. @cr-portrait
+
+My background blends **retail**, **small-business development and creation**, **environmental economics**, **political economy**, and **creative technology**. I use **R**, **Quarto**, and **GitHub Pages** to make research more transparent and engaging.
 :::
 
-::: {#cr-links .cr-links}
-<a href="https://github.com/gerverhlopez"><i class="bi bi-github"></i> GitHub</a> <a href="https://scholar.google.com/"><i class="bi bi-mortarboard"></i> Scholar</a> <a href="mailto:you@email.com"><i class="bi bi-envelope"></i> Email</a>
+Here are quick links to my work. @cr-links
+
+I hope my posts encourage students—regardless of academic background—to explore **data-driven storytelling**. This line will display a guiding quote. @cr-quote
+
+I’m curious about how **economic systems, social networks, policy, and ecological resilience** shape our world—and how clear, accessible design helps us understand them. Below is a compact view of my core interests. @cr-interests
+
+I’m especially interested in **why and how people spend money on environmental causes**, what’s in it for them, and how these decisions relate to the **value of natural resources and money in macrofinance**—often explored through small, reproducible examples.
+
+When this paragraph scrolls into view, it will reveal a histogram. @cr-myplot
+
+I hope you found this introduction engaging. Feel free to connect or explore my work!
+
+:::{#cr-portrait .cr-headshot}
+![](funfun.jpeg)
 :::
 
-::: {#cr-quote .cr-quote}
+:::{#cr-links .cr-links}
+<!-- your buttons -->
+:::
+
+:::{#cr-quote .cr-quote}
+<!-- your quote -->
+:::
+
+:::{#cr-interests .cr-list}
+<!-- your list -->
+:::
+
+:::{#cr-myplot}
+```{r}
+#| echo: false
+set.seed(42)
+hist(rnorm(15))
+
+
+![](funfun.jpeg){fig-alt="Portrait of Gerver H. Lopez"}
+:::
+
+:::{#cr-links .cr-links}
+<a href="https://github.com/gerverhlopez" class="btn btn-dark btn-lg">GitHub</a>
+<a href="https://scholar.google.com/" class="btn btn-dark btn-lg">Scholar</a>
+<a href="mailto:you@email.com" class="btn btn-dark btn-lg">Email</a>
+:::
+
+:::{#cr-quote .cr-quote}
 > “Exploring how data, economics, and design can make **natural-resource choices** visible and meaningful.”
 :::
 
-::: {#cr-interests}
-**Current interests** - Motivations behind **environmental spending** (altruism, signaling, local benefits)\
-- **Natural resources** valuation and governance\
-- **Macro-finance**: value of money, rates, and climate risk\
-- **Social networks** & policy diffusion\
-- Visual, **accessible** research communication
-:::{#cr-features}
+:::{#cr-interests .cr-list}
+### Core interests
+- **Environmental spending** motivations  
+- **Natural resources** valuation and governance  
+- **Macro-finance**: value of money, rates, climate risk  
+- **Social networks** & policy diffusion  
+- Visual, **accessible** research communication  
+:::
 
-<div>
-
-</div>
+:::{#cr-myplot}
+```{r}
+#| echo: false
+set.seed(42)
+hist(rnorm(15), main = "Example Histogram", col = "skyblue", border = "white")

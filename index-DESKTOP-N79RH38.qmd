@@ -1,0 +1,45 @@
+---
+title: "Gerver H. Lopez"
+format: closeread-html
+---
+
+::: {.cr-title-slide}
+# **Gerver H. Lopez**
+## Economics | Environment | Political Economy
+:::
+
+:::{.cr-section}
+...narrative paragraphs and @cr-sticky triggers here...
+:::
+
+:::{#cr-portrait}
+![]funfun.jpeg)
+:::
+
+:::{#cr-quote}
+> “Exploring how data, economics, and design can make natural-resource choices visible.”
+:::
+
+As you scroll, you’ll see my photo. @cr-portrait
+
+This quote sums up my philosophy. @cr-quote
+
+:::{focus-on="cr-quote"}
+This paragraph **and the next one** trigger the same sticky.
+The sticky stays active until both have scrolled past.
+:::
+
+:::{.cr-section}
+When this paragraph scrolls into view, you’ll see an image. @cr-myimage
+
+Here’s a short description of what it shows. @cr-myplot
+:::
+
+:::{#cr-myimage}
+funfun.jpeg.jpg)
+:::
+
+:::{#cr-myplot}
+```{r}
+hist(rnorm(25))
+

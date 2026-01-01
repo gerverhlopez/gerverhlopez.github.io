@@ -14,6 +14,7 @@ website:
           # - SRI.qmd
           - basictimeseries.qmd
 
+
 format:
   html:
     theme: cosmo
